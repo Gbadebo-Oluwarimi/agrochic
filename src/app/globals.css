@@ -126,3 +126,10 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.co-founder {
+  background-image: url("../../public/co-fouder.jpg");
+  background-position: center calc(30% - 50px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
