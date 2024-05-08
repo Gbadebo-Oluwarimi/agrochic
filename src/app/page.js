@@ -7,9 +7,9 @@ import { useEffect } from "react";
 import localFont from "next/font/local";
 import Footer from "./Components/Footer";
 import AOS from "aos";
+import Link from "next/link";
 import "aos/dist/aos.css";
 import Prenav from "./Components/Prenav";
-import { Link } from "react-router-dom";
 const myfont2 = localFont({
   src: "../font/Figtree-Light.ttf",
 });
@@ -173,15 +173,15 @@ export default function Home() {
             Development to Distribution About AgroCertify
           </h1>
           <div className="text-md my-6 p-2  text-gray-800">
-            At AgroCertify, I provide services to streamline operations and
-            ensure compliance with industry standards. Rather than committing to
+            At AgroChic, We provide services to streamline operations and ensure
+            compliance with industry standards. Rather than committing to
             full-time staff for part-time needs,
           </div>
           <div className="p-2 text-md">
-            Reanne has a Bachelor&apos;s degree in Environmental Science, a
-            Master&apos;s in Agriculture, and extensive expertise in fertilizer,
-            agricultural R&D, regulatory approvals, and funding/grants
-            applications, coupled with a keen understanding
+            Terry Junior has a Bachelor&apos;s degree in Environmental Science,
+            a Master&apos;s in Agriculture, and extensive expertise in
+            fertilizer, agricultural R&D, regulatory approvals, and
+            funding/grants applications, coupled with a keen understanding
           </div>
 
           <div className="flex w-full mt-7 p-2">
