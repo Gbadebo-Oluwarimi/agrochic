@@ -2,32 +2,127 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.img {
+  background-image: url("../../public/landing.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.main2 {
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(16.5px);
+  -webkit-backdrop-filter: blur(16.5px);
+  border: none;
+}
+.main3 {
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: none;
+}
+.video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  object-position: center;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.user1 {
+  background-image: url("../../public/root.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.user2 {
+  background-image: url("../../public/worker.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.produce1 {
+  background-image: url("../../public/produce1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footerbg {
+  background-image: url("../../public/footerbg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about {
+  background-image: url("../../public/about.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about {
+  position: relative;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+}
+
+.produce2 {
+  background-image: url("../../public/produce2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ceo {
+  background-image: url("../../public/user1.jpg");
+  background-position: center calc(30% - 50px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ceo1 {
+  background-image: url("../../public/user1.jpg");
+  background-position: center calc(30% - 50px);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.co1 {
+  background-image: url("../../public/co-1.webp");
+  background-position: center calc(30% - 50px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.co2 {
+  background-image: url("../../public/co-2.webp");
+  background-position: center calc(30% - 50px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.co3 {
+  background-image: url("../../public/co-3.webp");
+  background-position: center calc(30% - 50px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.co4 {
+  background-image: url("../../public/co-4.webp");
+  background-position: center calc(30% - 50px);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

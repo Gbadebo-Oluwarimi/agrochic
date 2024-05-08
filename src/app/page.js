@@ -1,113 +1,342 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import React from "react";
+import Navbar from "./Components/Navbar";
+import Image from "next/image";
+import { useEffect } from "react";
+import localFont from "next/font/local";
+import Footer from "./Components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Prenav from "./Components/Prenav";
+const myfont2 = localFont({
+  src: "../font/Figtree-Light.ttf",
+});
+const myfont = localFont({
+  src: "../font/Figtree-Medium.ttf",
+});
+const myfont3 = localFont({
+  src: "../font/Figtree-Regular.ttf",
+});
+const myfont4 = localFont({
+  src: "../font/Figtree-ExtraBold.ttf",
+});
+const myfont5 = localFont({
+  src: "../font/Figtree-Bold.ttf",
+});
+const page = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+    });
+  }, []);
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <div
+      style={myfont2.style}
+      className="min-h-screen bg-green-50  overflow-hidden"
+    >
+      <Navbar />
+      <div className="grid grid-cols-10 mt-16 max-w-6xl m-auto ">
+        <div className="col-span-10  md:col-span-6  m-auto ">
+          <Image
+            src="/design.png"
+            width={600}
+            height={600}
+            style={{
+              position: "absolute",
+              top: "-340px",
+              left: "-340px",
+              opacity: "12%",
+            }}
+            data-aos="fade-right"
+          />
+
+          <div
+            className="m-auto max-w-5xl p-4 mt-12   z-10 "
+            data-aos="fade-down"
           >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+            <div
+              style={myfont3.style}
+              className="flex text-center text-md align-middle w-72 max-w-2xl m-auto items-center bg-green-50 border-2  rounded-full p-1 md:w-80 md:m-0 text-textcolor mb-3"
+            >
+              <div className="text-center w-full">
+                The fastest money transfer platform
+              </div>
+            </div>
+            <div
+              className=" text-4xl items-center font-bold  align-middle text-center  md:text-left  md:text-6xl mb-3 md:pt-6 text-darkgreen w-full "
+              style={myfont2.style}
+            >
+              Make payment quickly anytime, anywhere.
+              <span className="text-green-700"></span>
+            </div>
+            <div
+              style={myfont3.style}
+              className="  w-full items-center align-middle text-center md:text-left  md:w-3/4 text-md mb-7 mt-9"
+            >
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it overin a piece of making it over
+            </div>
+            <div className=" inline-block md:flex m-auto max-w-4xl  align-middle items-center text-center md:text-left">
+              <button className="mr-3 mb-3 md:mb-0  bg-green-700 w-72 rounded-tr-xl rounded-bl-xl p-3 md:w-40 text-sm text-white">
+                Check Products
+              </button>
+              <button className=" border-2 border-gray-500  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen ">
+                About Us
+              </button>
+            </div>
+            <div className="flex w-full justify-between m-auto mt-7 md:justify-normal">
+              <div className="mr-10">
+                <div className="text-4xl font-extrabold">8m+</div>
+                <div>Agrculture Farm Land</div>
+              </div>
+              <div>
+                <div className="text-4xl font-bold">98%</div>
+                <div>Farm Produce Rate</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rounded-large hidden md:flex col-span-4    "
+          data-aos="fade-down"
+        >
+          <video
+            autoPlay
+            loop
+            muted
+            className="rounded-bl-large rounded-tr-large  object-cover w-full mt-16 "
+          >
+            <source src="/vid2.mp4" />
+          </video>
+          <div className="absolute bottom-2 text-white"></div>
+        </div>
+      </div>
+      <div
+        className="w-full bg-darkgreen mt-10 text-center h-14 skew-y-2"
+        data-aos="fade-up"
+      >
+        <div></div>
+        <div></div>
+      </div>
+      <div className="text-center mt-20" data-aos="fade-down">
+        <div className="m-auto max-w-8  text-sm inline-block mb-5">
+          Mission
+          <div className="h-1 w-14 bg-green-600" />
+        </div>
+
+        <div className=" text-center text-3xl p-3 md:p-0 md:text-5xl m-auto max-w-3xl mb-20">
+          We have unique insight into market trends and customer preferences
+          trends.
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="inline-block md:flex max-w-7xl m-auto">
+        <div
+          className="user1 w-1/2  ml-4 md:ml-20 rounded-bl-large rounded-tr-large"
+          data-aos="fade-right"
+        ></div>
+        <div
+          className="mx-3 md:mx-14 w-full md:w-1/2 my-2 md:my-20"
+          data-aos="fade-left"
+        >
+          <div className="text-xs">Development to Distribution</div>
+          <h1 className="text-5xl text-bold font-bold text-gray-700">
+            Development to Distribution About AgroCertify
+          </h1>
+          <div className="text-md my-6 p-2  text-gray-800">
+            At AgroCertify, I provide services to streamline operations and
+            ensure compliance with industry standards. Rather than committing to
+            full-time staff for part-time needs,
+          </div>
+          <div className="p-2 text-md">
+            Reanne has a Bachelor's degree in Environmental Science, a Master's
+            in Agriculture, and extensive expertise in fertilizer, agricultural
+            R&D, regulatory approvals, and funding/grants applications, coupled
+            with a keen understanding
+          </div>
+
+          <div className="flex w-full mt-7 p-2">
+            <div className="mr-10">
+              <div className="text-4xl font-bold" data-aos="fade-up">
+                8m+
+              </div>
+              <div data-aos="fade-up">Agrculture Farm Land</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold" data-aos="fade-up">
+                98%
+              </div>
+              <div data-aos="fade-up">Farm Produce Rate</div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className="relative bg-green-50  mt-32 p-10 overflow-hidden">
+        <div className="pt-20 max-w-6xl m-auto ">
+          <Image
+            src="/design.png"
+            width={600}
+            height={600}
+            style={{
+              position: "absolute",
+              top: "-340px",
+              right: "-340px",
+              opacity: "20%",
+            }}
+            data-aos="fade-left"
+          />
+          <div
+            className="text-center md:text-left text-md font-bold mb-8 "
+            data-aos="fade-right"
+          >
+            Features
+          </div>
+          <div
+            className="text-center md:text-left text-3xl  md:text-5xl font-bold text-gray-800 "
+            data-aos="fade-right"
+          >
+            Track, improve, and minimise spending
+            <br /> with custom advices from experts
+            <div className="p-2 md:p-0 w-full text-xl text-center md:text-left mt-6 md:w-4/6">
+              Get access to dedicated financial consultancy that helps you or
+              your business save money on your taxes, insurance, and other
+              financial expenses.
+            </div>
+          </div>
+          <div className=" inline-block md:flex max-w-7xl m-auto gap-5  mt-9 mb-14 w-full">
+            <div
+              className="p-5 text-gray-800 produce1 w-full rounded-md h-96 mb-5"
+              data-aos="fade-down"
+            >
+              <div
+                className="relative top-64 w-full rounded-md main3 p-5"
+                data-aos="fade-down"
+              >
+                <div className="font-bold text-white">
+                  Freshly Picked Tomatotes
+                </div>
+                <div className="text-sm text-white">Toamtoes </div>
+              </div>
+            </div>
+            <div
+              className="p-4 text-gray-800 produce2 w-full rounded-md h-96 mb-5"
+              data-aos="fade-down"
+            >
+              <div
+                className="relative top-64 w-full rounded-md main3 p-5"
+                data-aos="fade-down"
+              >
+                <div className="font-bold text-white">
+                  Freshly Picked Tomatotes
+                </div>
+                <div className="text-sm text-white">Toamtoes </div>
+              </div>
+            </div>
+            <div
+              className="p-5 text-gray-800 produce1 w-full rounded-md h-96"
+              data-aos="fade-down"
+            >
+              <div
+                className="relative top-64 w-full rounded-md main3 p-5"
+                data-aos="fade-down"
+              >
+                <div className="font-bold text-white">
+                  Freshly Picked Tomatotes
+                </div>
+                <div className="text-sm text-white">Toamtoes </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
+      <div className="text-center  bg-green-50 py-32">
+        <div className="m-auto max-w-8  text-sm inline-block mb-5">
+          Mission
+          <div className="h-1 w-14 bg-green-600" />
+        </div>
+
+        <div
+          className=" text-center text-3xl md:text-5xl m-auto max-w-6xl  font-bold"
+          data-aos="fade-down"
+        >
+          "My online payments are out of control and I don't know where to cut
+          back. I feel like I need someone else to hold my card for me."
+        </div>
+      </div>
+      <div className="bg-green-50 pt-32">
+        <div className=" inline-block md:flex  max-w-6xl m-auto  gap-20  mb-10 p-6 bg-green-50">
+          <div
+            className="min-h-96 md:min-h-max user2 p-8 w-full rounded-md"
+            data-aos="fade-right"
+          >
+            <div
+              className="hidden md:inline-block relative top-72 w-full rounded-md  bg-white p-5"
+              data-aos="fade-down"
+            >
+              <div className="font-bold pb-3 text-md">
+                We believe in turning your outdoor space into your personal
+                oasis Get access to dedicated financial consultancy that helps
+                you or your
+              </div>
+              <div className="font-bold">Ricky Davis CEO</div>
+              <div className="text-sm text-white">Toamtoes </div>
+            </div>
+          </div>
+          <div className="mt-10 md:mt-4 mb-6" data-aos="fade-left">
+            <div className="text-sm mb-4 font-bold">
+              Features
+              <div className="h-1 w-14 bg-green-600" />
+            </div>
+
+            <div className="text-5xl font-bold">
+              We believe in turning your outdoor space into your personal oasis
+            </div>
+            <div className="mt-10 text-xl">
+              Whether you have a sprawling backyard or a cozy balcony, our team
+              of experienced gardeners and We believe in turning your outdoor
+              space into your personal
+            </div>
+            <div className="mt-10 text-xl flex mb-6 items-center align-middle">
+              <div className="p-2 rounded-md bg-green-500 flex items-center align-middle text-center">
+                <Image
+                  src="/logo2.svg"
+                  width={25}
+                  height={25}
+                  alt="logo"
+                  className="font-bold"
+                />
+              </div>
+              <div className="text-sm px-3">
+                {" "}
+                Whether you have a sprawling backyard or a cozy balcony
+              </div>
+            </div>
+
+            <div className="mt-10 text-xl flex mb-6 items-center align-middle">
+              <div className="p-2 rounded-md bg-green-500 flex items-center align-middle text-center">
+                <Image
+                  src="/logo2.svg"
+                  width={25}
+                  height={25}
+                  alt="logo"
+                  className="font-bold"
+                />
+              </div>
+              <div className="text-sm px-3">
+                {" "}
+                Whether you have a sprawling backyard or a cozy balcony
+              </div>
+            </div>
+          </div>
+        </div>
+        <Prenav />
+      </div>
+      <Footer />
+    </div>
   );
-}
+};
+
+export default page;
