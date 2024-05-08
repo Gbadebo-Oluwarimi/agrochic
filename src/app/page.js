@@ -64,11 +64,11 @@ export default function Home() {
               className="flex text-center text-md align-middle w-72 max-w-2xl m-auto items-center bg-green-50 border-2  rounded-full p-1 md:w-80 md:m-0 text-textcolor mb-3"
             >
               <div
-                className="text-center w-full"
+                className="text-center w-full text-sm md:text-left pl-0 md:pl-3"
                 data-aos-delay="1000"
                 data-aos="fade-down"
               >
-                The fastest money transfer platform
+                Accelerating Farming Operations
               </div>
             </div>
             <div
@@ -77,7 +77,7 @@ export default function Home() {
               data-aos-delay="1000"
               data-aos="fade-down"
             >
-              Make payment quickly anytime, anywhere.
+              Nurturing Sustainable Agricultural, Solutions.
               <span className="text-green-700"></span>
             </div>
             <div
@@ -91,19 +91,11 @@ export default function Home() {
               making it overin a piece of making it over
             </div>
             <div className=" inline-block md:flex m-auto max-w-4xl  align-middle items-center text-center md:text-left">
-              <button
-                data-aos-delay="1000"
-                data-aos="fade-down"
-                className="mr-3 mb-3 md:mb-0  bg-green-700 w-72 rounded-tr-xl rounded-bl-xl p-3 md:w-40 text-sm text-white"
-              >
+              <button className="mr-3 mb-3 md:mb-0  bg-green-700 w-72 rounded-tr-xl rounded-bl-xl p-3 md:w-40 text-sm text-white">
                 Check Products
               </button>
               <Link href="/about">
-                <button
-                  data-aos-delay="1000"
-                  data-aos="fade-down"
-                  className=" border-2 border-gray-500  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen "
-                >
+                <button className=" border-2 border-gray-500  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen ">
                   About Us
                 </button>
               </Link>
