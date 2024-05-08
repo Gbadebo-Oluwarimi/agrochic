@@ -9,6 +9,7 @@ import Footer from "./Components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Prenav from "./Components/Prenav";
+import { Link } from "react-router-dom";
 const myfont2 = localFont({
   src: "../font/Figtree-Light.ttf",
 });
@@ -97,13 +98,15 @@ export default function Home() {
               >
                 Check Products
               </button>
-              <button
-                data-aos-delay="1000"
-                data-aos="fade-down"
-                className=" border-2 border-gray-500  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen "
-              >
-                About Us
-              </button>
+              <Link href="/about">
+                <button
+                  data-aos-delay="1000"
+                  data-aos="fade-down"
+                  className=" border-2 border-gray-500  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen "
+                >
+                  About Us
+                </button>
+              </Link>
             </div>
             <div
               data-aos-delay="1000"

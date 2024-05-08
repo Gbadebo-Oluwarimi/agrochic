@@ -4,7 +4,7 @@ const Prenav = () => {
   return (
     <div className="w-full min-h-96 bg-darkgreen text-white  inline-block md:flex">
       <div className="max-w-7xl m-auto ">
-        <div className="text-3xl w-full md:text-6xl md:w-full font-bold py-20 px-20">
+        <div className="text-3xl w-full md:text-6xl md:w-full font-bold py-5 md:py-20 px-6 md:px-20">
           Supercharge your
           <br /> business with Hive!
           <div className="text-lg w-full md:w-3/5 font-medium mt-6 ">

@@ -43,16 +43,18 @@ export default function About() {
               Our Story
             </div>
             <div className="text-xl w-full mb-5 font-light">
-              At Hive, we understand that managing a business efficiently
-              requires seamless coordination and streamlined processes. That
-              &apos; s why we&apos;ve developed a to the cutting edge.
+              At Agrochic, we recognize the intricate demands of running an
+              agricultural enterprise. Efficient management hinges on seamless
+              coordination and streamlined processes. That&apos;s why we&apos;ve
+              honed our solutions to align perfectly with the cutting edge of
+              agricultural innovation.
             </div>
             <div className="text-xl w-full font-light">
-              That empowers you to take control of your operations to the boost
-              productivity, and elevate your business to new heights. Hive is
-              not just a software solution.
+              Empowering you to seize control of your operations, boost
+              productivity, and elevate your agricultural business to
+              unprecedented heights, Hive transcends mere software solutions.
             </div>
-            <div className="text-2xl font-bold mt-10">Ricky Stokes, CEO</div>
+            <div className="text-2xl font-bold mt-10">Terry Junior, CEO</div>
           </div>
           <div className="p-10 w-full ">
             <div

@@ -34,9 +34,11 @@ const Navbar = () => {
         </div>
 
         <ul className="flex justify-between text-center items-center ">
-          <button className="rounded-tr-xl rounded-bl-xl bg-green-900  text-xs px-7 py-3 text-white">
-            Products
-          </button>
+          <Link href="/about">
+            <button className="rounded-tr-xl rounded-bl-xl bg-green-900  text-xs px-7 py-3 text-white">
+              Product
+            </button>
+          </Link>
         </ul>
       </div>
     </div>
