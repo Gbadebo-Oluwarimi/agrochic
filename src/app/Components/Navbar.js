@@ -3,21 +3,17 @@ import Image from "next/image";
 import Link from "next/link";
 const Navbar = () => {
   return (
-    <div
-      className="main2 fixed w-full bg-green-50 py-4 z-10"
-      data-aos="fade-down"
-    >
+    <div className="main2 fixed w-full bg-green-50  z-10" data-aos="fade-down">
       <div className=" relative m-auto max-w-7xl w-full  px-5 flex justify-between">
         <div className="flex justify-between items-center">
           <div className="mr-20 font-bold flex items-center align-middle ">
             <Image
-              src="/logo2.svg"
-              width={30}
-              height={30}
+              src="/logo.png"
+              width={100}
+              height={100}
               alt="logo"
               className="font-bold"
             />
-            <div>Agrochic</div>
           </div>
           <ul className=" hidden md:flex justify-between items-center text-gray-800">
             <Link href="/">

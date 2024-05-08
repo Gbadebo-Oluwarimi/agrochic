@@ -61,7 +61,7 @@ export default function Home() {
               style={myfont3.style}
               data-aos-delay="1000"
               data-aos="fade-down"
-              className="flex text-center text-md align-middle w-72 max-w-2xl m-auto items-center bg-green-50 border-2  rounded-full p-1 md:w-80 md:m-0 text-textcolor mb-3"
+              className="flex text-center text-md align-middle w-54 max-w-2xl m-auto items-center bg-green-50 border-2  rounded-full p-1 md:w-80 md:m-0 text-textcolor mb-3"
             >
               <div
                 className="text-center w-full text-sm md:text-left pl-0 md:pl-3"
@@ -100,11 +100,7 @@ export default function Home() {
                 </button>
               </Link>
             </div>
-            <div
-              data-aos-delay="1000"
-              data-aos="fade-down"
-              className="flex w-full justify-between m-auto mt-7 md:justify-normal"
-            >
+            <div className="flex w-full justify-between m-auto mt-7 md:justify-normal">
               <div className="mr-10">
                 <div className="text-4xl font-extrabold">8m+</div>
                 <div>Agrculture Farm Land</div>
@@ -162,7 +158,7 @@ export default function Home() {
         >
           <div className="text-xs">Development to Distribution</div>
           <h1 className="text-5xl text-bold font-bold text-gray-700">
-            Development to Distribution About AgroCertify
+            Development to Distribution About AgroChic
           </h1>
           <div className="text-md my-6 p-2  text-gray-800">
             At AgroChic, We provide services to streamline operations and ensure
