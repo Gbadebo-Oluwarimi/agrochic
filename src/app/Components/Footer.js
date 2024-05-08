@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -18,7 +19,7 @@ const Footer = () => {
                   href="#"
                   class="block text-2xl font-medium text-gray-900 hover:opacity-75 dark:text-white sm:text-xl"
                 >
-                  08033197483
+                  +1 234 567 890
                 </a>
               </p>
 
@@ -123,23 +124,26 @@ const Footer = () => {
                     </svg>
                   </li>
 
-                  <li className="text-gray-700">
-                    About Us
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={2}
-                      stroke="currentColor"
-                      className=" text-green-600 w-4 h-4"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                      />
-                    </svg>
-                  </li>
+                  <Link href="/about">
+                    {" "}
+                    <li className="text-gray-700">
+                      About Us
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={2}
+                        stroke="currentColor"
+                        className=" text-green-600 w-4 h-4"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                        />
+                      </svg>
+                    </li>
+                  </Link>
 
                   <li className="text-gray-700">
                     Payment Plans
@@ -237,10 +241,7 @@ const Footer = () => {
               </ul>
 
               <p class="mt-8 text-xs text-gray-500 dark:text-gray-400 sm:mt-0">
-                &copy; 2022.{" "}
-                <span className="text-green-500">
-                  Picotel Network Solutions.
-                </span>{" "}
+                &copy; 2024. <span className="text-green-500">Agrochic</span>{" "}
                 All rights reserved.
               </p>
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 const Navbar = () => {
   return (
     <div
@@ -19,8 +20,13 @@ const Navbar = () => {
             <div>Agrochic</div>
           </div>
           <ul className=" hidden md:flex justify-between items-center text-gray-800">
-            <li className="mr-7">Home</li>
-            <li className="mr-7">About us</li>
+            <Link href="/">
+              {" "}
+              <li className="mr-7">Home</li>
+            </Link>
+            <Link href="/about">
+              <li className="mr-7">About us</li>
+            </Link>
             <li className="mr-7">Pricing</li>
             <li className="mr-7">Blog</li>
             <li className="mr-7">Contact</li>

@@ -44,8 +44,8 @@ const page = () => {
             </div>
             <div className="text-xl w-full mb-5 font-light">
               At Hive, we understand that managing a business efficiently
-              requires seamless coordination and streamlined processes. That's
-              why we've developed a to the cutting edge.
+              requires seamless coordination and streamlined processes. That
+              &apos; s why we&apos;ve developed a to the cutting edge.
             </div>
             <div className="text-xl w-full font-light">
               That empowers you to take control of your operations to the boost
@@ -71,8 +71,8 @@ const page = () => {
             <div className="text-xl mb-10" data-aos="fade-down">
               Features
             </div>
-            We’re a team of experienced financial advisors, here to help with
-            the financial tasks that you don’t like, and we do.
+            We&apos;re a team of experienced financial advisors, here to help
+            with the financial tasks that you don&apos;t like, and we do.
           </div>
           <div className="inline-block md:flex gap-10 max-w-6xl m-auto">
             <div

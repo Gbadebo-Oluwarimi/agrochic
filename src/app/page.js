@@ -152,10 +152,10 @@ const page = () => {
             full-time staff for part-time needs,
           </div>
           <div className="p-2 text-md">
-            Reanne has a Bachelor's degree in Environmental Science, a Master's
-            in Agriculture, and extensive expertise in fertilizer, agricultural
-            R&D, regulatory approvals, and funding/grants applications, coupled
-            with a keen understanding
+            Reanne has a Bachelor&apos;s degree in Environmental Science, a
+            Master's in Agriculture, and extensive expertise in fertilizer,
+            agricultural R&D, regulatory approvals, and funding/grants
+            applications, coupled with a keen understanding
           </div>
 
           <div className="flex w-full mt-7 p-2">
@@ -262,8 +262,9 @@ const page = () => {
           className=" text-center text-3xl md:text-5xl m-auto max-w-6xl  font-bold"
           data-aos="fade-down"
         >
-          "My online payments are out of control and I don't know where to cut
-          back. I feel like I need someone else to hold my card for me."
+          &quot;My online payments are out of control and I don't know where to
+          cut back. I feel like I need someone else to hold my card for
+          me.&quot;
         </div>
       </div>
       <div className="bg-green-50 pt-32">
