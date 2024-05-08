@@ -61,10 +61,10 @@ export default function Home() {
               style={myfont3.style}
               data-aos-delay="1000"
               data-aos="fade-down"
-              className="flex text-center text-md align-middle w-54 max-w-2xl m-auto items-center bg-green-50 border-2  rounded-full p-1 md:w-80 md:m-0 text-textcolor mb-3"
+              className="flex md:w-72 text-center text-md align-middle w-80 max-w-2xl m-auto items-center bg-green-50 border-2  rounded-full p-1  md:m-0 text-textcolor mb-3"
             >
               <div
-                className="text-center w-full text-sm md:text-left pl-0 md:pl-3"
+                className="text-center   w-full text-sm md:text-left pl-0 md:pl-3 text-yellow-800"
                 data-aos-delay="1000"
                 data-aos="fade-down"
               >
@@ -77,7 +77,8 @@ export default function Home() {
               data-aos-delay="1000"
               data-aos="fade-down"
             >
-              Nurturing Sustainable Agricultural, Solutions.
+              Nurturing Sustainable{" "}
+              <span className="text-yellow-700">Agricultural</span>, Solutions.
               <span className="text-green-700"></span>
             </div>
             <div
@@ -95,7 +96,7 @@ export default function Home() {
                 Check Products
               </button>
               <Link href="/about">
-                <button className=" border-2 border-gray-500  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen ">
+                <button className=" border-2 border-yellow-600  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen ">
                   About Us
                 </button>
               </Link>

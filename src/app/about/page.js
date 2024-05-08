@@ -122,11 +122,11 @@ export default function About() {
         </div>
         <div className="p-7   inline-block w-full md:flex gap-10 max-w-7xl m-auto ">
           <div
-            className=" ceo rounded-lg w-full p-3   mb-10 "
+            className=" ceo rounded-lg w-full p-3  min-h-96 md:h-svh  mb-10 "
             data-aos="fade-down"
           >
             <div
-              className="relative top-72 w-full rounded-md bg-white p-4"
+              className="relative md:top-3/4 top-56 w-full rounded-md bg-white p-4"
               data-aos="fade-down"
             >
               <div className="font-bold ">Terry Junior </div>
@@ -135,23 +135,23 @@ export default function About() {
           </div>
 
           <div
-            className="co-founder rounded-md p-3 w-full min-h-96 mb-10"
+            className="co-founder rounded-md p-3 w-full  min-h-96 md:h-svh mb-10"
             data-aos="fade-down"
           >
             <div
-              className=" relative w-full top-60 rounded-md bg-white p-4 "
+              className=" relative w-full top-56 md:top-3/4  rounded-md bg-white p-4 "
               data-aos="fade-down"
             >
-              <div className="font-bold ">Ricky Stones Junior</div>
+              <div className="font-bold ">Constant Edoukou</div>
               <div className="text-sm ">Co-Founder </div>
             </div>
           </div>
           <div
-            className=" co3 rounded-md p-5 w-full h-96 mb-10"
+            className=" co3 rounded-md p-5 w-full  min-h-96 md:h-svh mb-10"
             data-aos="fade-down"
           >
             <div
-              className=" relative w-full top-56 rounded-md bg-white p-4 "
+              className=" relative w-full top-56 md:top-3/4 rounded-md bg-white p-4 "
               data-aos="fade-down"
             >
               <div className="font-bold ">Ricky Stones Jr</div>
@@ -159,11 +159,11 @@ export default function About() {
             </div>
           </div>
           <div
-            className="co4 rounded-md p-5 w-full h-96 mb-10"
+            className="co4 rounded-md p-5 w-full min-h-96 md:h-svh mb-10"
             data-aos="fade-down"
           >
             <div
-              className=" relative w-full top-56 rounded-md bg-white p-4 "
+              className=" relative w-full top-56 md:top-3/4 rounded-md bg-white p-4 "
               data-aos="fade-down"
             >
               <div className="font-bold ">Ricky Stones Jr</div>
