@@ -14,7 +14,7 @@ const myfont2 = localFont({
 const myfont3 = localFont({
   src: "../../font/Figtree-Light.ttf",
 });
-const page = () => {
+export default function About() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -179,6 +179,4 @@ const page = () => {
       <Footer />
     </div>
   );
-};
-
-export default page;
+}

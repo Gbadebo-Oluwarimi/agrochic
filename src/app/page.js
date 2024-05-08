@@ -24,7 +24,7 @@ const myfont4 = localFont({
 const myfont5 = localFont({
   src: "../font/Figtree-Bold.ttf",
 });
-const page = () => {
+export default function Home() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -58,15 +58,23 @@ const page = () => {
           >
             <div
               style={myfont3.style}
+              data-aos-delay="1000"
+              data-aos="fade-down"
               className="flex text-center text-md align-middle w-72 max-w-2xl m-auto items-center bg-green-50 border-2  rounded-full p-1 md:w-80 md:m-0 text-textcolor mb-3"
             >
-              <div className="text-center w-full">
+              <div
+                className="text-center w-full"
+                data-aos-delay="1000"
+                data-aos="fade-down"
+              >
                 The fastest money transfer platform
               </div>
             </div>
             <div
               className=" text-4xl items-center font-bold  align-middle text-center  md:text-left  md:text-6xl mb-3 md:pt-6 text-darkgreen w-full "
               style={myfont2.style}
+              data-aos-delay="1000"
+              data-aos="fade-down"
             >
               Make payment quickly anytime, anywhere.
               <span className="text-green-700"></span>
@@ -74,20 +82,34 @@ const page = () => {
             <div
               style={myfont3.style}
               className="  w-full items-center align-middle text-center md:text-left  md:w-3/4 text-md mb-7 mt-9"
+              data-aos-delay="1000"
+              data-aos="fade-down"
             >
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
               making it overin a piece of making it over
             </div>
             <div className=" inline-block md:flex m-auto max-w-4xl  align-middle items-center text-center md:text-left">
-              <button className="mr-3 mb-3 md:mb-0  bg-green-700 w-72 rounded-tr-xl rounded-bl-xl p-3 md:w-40 text-sm text-white">
+              <button
+                data-aos-delay="1000"
+                data-aos="fade-down"
+                className="mr-3 mb-3 md:mb-0  bg-green-700 w-72 rounded-tr-xl rounded-bl-xl p-3 md:w-40 text-sm text-white"
+              >
                 Check Products
               </button>
-              <button className=" border-2 border-gray-500  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen ">
+              <button
+                data-aos-delay="1000"
+                data-aos="fade-down"
+                className=" border-2 border-gray-500  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen "
+              >
                 About Us
               </button>
             </div>
-            <div className="flex w-full justify-between m-auto mt-7 md:justify-normal">
+            <div
+              data-aos-delay="1000"
+              data-aos="fade-down"
+              className="flex w-full justify-between m-auto mt-7 md:justify-normal"
+            >
               <div className="mr-10">
                 <div className="text-4xl font-extrabold">8m+</div>
                 <div>Agrculture Farm Land</div>
@@ -102,6 +124,7 @@ const page = () => {
         <div
           className="rounded-large hidden md:flex col-span-4    "
           data-aos="fade-down"
+          data-aos-delay="1000"
         >
           <video
             autoPlay
@@ -153,7 +176,7 @@ const page = () => {
           </div>
           <div className="p-2 text-md">
             Reanne has a Bachelor&apos;s degree in Environmental Science, a
-            Master's in Agriculture, and extensive expertise in fertilizer,
+            Master&apos;s in Agriculture, and extensive expertise in fertilizer,
             agricultural R&D, regulatory approvals, and funding/grants
             applications, coupled with a keen understanding
           </div>
@@ -262,8 +285,8 @@ const page = () => {
           className=" text-center text-3xl md:text-5xl m-auto max-w-6xl  font-bold"
           data-aos="fade-down"
         >
-          &quot;My online payments are out of control and I don't know where to
-          cut back. I feel like I need someone else to hold my card for
+          &quot;My online payments are out of control and I don&apos;t know
+          where to cut back. I feel like I need someone else to hold my card for
           me.&quot;
         </div>
       </div>
@@ -338,6 +361,4 @@ const page = () => {
       <Footer />
     </div>
   );
-};
-
-export default page;
+}
