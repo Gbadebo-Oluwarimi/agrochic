@@ -17,12 +17,12 @@ export default function Gallery() {
 
     //icons
     prevArrow: (
-      <div className="ml-10 inset-y-1/2">
+      <div className="ml-10 md:top-1/2">
         <ArrowLeftIcon className="h-8 w-8 text-white cursor-pointer" />
       </div>
     ),
     nextArrow: (
-      <div className="ml-10 top-40 md:top-72">
+      <div className="mr-10  md:top-1/2">
         <ArrowRightIcon className="h-8 w-8 text-white cursor-pointer" />
       </div>
     ),
