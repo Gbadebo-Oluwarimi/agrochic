@@ -157,7 +157,7 @@ export default function About() {
       <div className="bg-green-50 text-left  py-20 w-full">
         <div className="text-center md:text-left mb-10 text-darkgreen font-bold text-6xl md:p-4 p-10 max-w-6xl m-auto ">
           Team Gallery
-          <div className="text-md mt-5 text-center md:text-left">
+          <div className="text-3xl mt-5 text-center md:text-left">
             {" "}
             At Hive, our vision is grounded in a future where businesses not
             only thrive
