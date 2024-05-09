@@ -10,7 +10,7 @@ const Navbar = () => {
     <>
       {box ? <Phonenav /> : ""}
       <div
-        className="main2 fixed w-full bg-green-50  z-10 "
+        className="main2 fixed w-full bg-green-50 p-4  z-10 "
         data-aos="fade-down"
       >
         <div className=" relative m-auto max-w-7xl w-full lg:max-w-full  px-5 flex justify-between">

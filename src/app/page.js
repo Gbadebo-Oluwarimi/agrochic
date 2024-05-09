@@ -80,7 +80,7 @@ export default function Home() {
               Farms: Cultivating Sustainability, Nourishing Communities
               <span className="text-green-700"></span>
             </div>
-            <div className="p-5 md:p-0">
+            <div className="p-1 md:p-0">
               <div className="md:p-0 p-5 g4 inline-block md:hidden rounded-lg w-full min-h-screen ">
                 <div
                   className=" md:inline-block relative top-96 w-full rounded-md  bg-white p-5"
