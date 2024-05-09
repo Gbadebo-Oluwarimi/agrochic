@@ -80,8 +80,20 @@ export default function Home() {
               Farms: Cultivating Sustainability, Nourishing Communities
               <span className="text-green-700"></span>
             </div>
-            <div className="p-5">
-              <div className="g4 inline-block md:hidden rounded-lg w-full min-h-screen "></div>
+            <div className="p-5 md:p-0">
+              <div className="md:p-0 p-5 g4 inline-block md:hidden rounded-lg w-full min-h-screen ">
+                <div
+                  className=" md:inline-block relative top-96 w-full rounded-md  bg-white p-5"
+                  data-aos="fade-down"
+                >
+                  <div className="font-bold pb-3 text-md">
+                    We believe in turning your outdoor space into your personal
+                    oasis Get access to dedicated financial consultancy that
+                    helps you or your
+                  </div>
+                  <div className="font-bold">Terry Junior CEO</div>
+                </div>
+              </div>
             </div>
             <div className="hidden md:inline-block">
               <div
@@ -105,7 +117,8 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="flex w-full justify-between m-auto mt-7 md:justify-normal">
+
+            <div className="flex max-w-3xl  md:w-full w-full justify-between m-auto mt-7 md:justify-normal">
               <div className="mr-10">
                 <div className="text-4xl font-extrabold">8m+</div>
                 <div>Agrculture Farm Land</div>
@@ -302,7 +315,6 @@ export default function Home() {
                 you or your
               </div>
               <div className="font-bold">Terry Junior CEO</div>
-              <div className="text-sm text-white">Toamtoes </div>
             </div>
           </div>
           <div className="mt-10 md:mt-4 mb-6" data-aos="fade-left">
