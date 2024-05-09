@@ -19,7 +19,7 @@ const Footer = () => {
                   href="#"
                   class="block text-2xl font-medium text-gray-900 hover:opacity-75 dark:text-white sm:text-xl"
                 >
-                  +1 234 567 890
+                  +225 57 55 90 41
                 </a>
               </p>
 
@@ -31,7 +31,7 @@ const Footer = () => {
               <ul class="mt-8 flex gap-6">
                 <li>
                   <a
-                    href="/"
+                    href="https://www.facebook.com/pouletchicIvoire"
                     rel="noreferrer"
                     target="_blank"
                     class="text-gray-700 transition hover:opacity-75 dark:text-gray-200"

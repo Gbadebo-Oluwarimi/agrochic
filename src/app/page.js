@@ -72,13 +72,12 @@ export default function Home() {
               </div>
             </div>
             <div
-              className=" text-4xl items-center font-bold  align-middle text-center  md:text-left  md:text-6xl mb-3 md:pt-6 text-darkgreen w-full "
+              className=" text-3xl items-center font-bold  align-middle text-center  md:text-left  md:text-5xl mb-3 md:pt-6 text-darkgreen w-full "
               style={myfont2.style}
               data-aos-delay="1000"
               data-aos="fade-down"
             >
-              Nurturing Sustainable{" "}
-              <span className="text-yellow-700">Agricultural</span>, Solutions.
+              Farms: Cultivating Sustainability, Nourishing Communities
               <span className="text-green-700"></span>
             </div>
             <div
@@ -96,7 +95,7 @@ export default function Home() {
                 Check Products
               </button>
               <Link href="/about">
-                <button className=" border-2 border-yellow-600  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen ">
+                <button className=" border-2 border-gray-600  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen ">
                   About Us
                 </button>
               </Link>
@@ -297,7 +296,7 @@ export default function Home() {
                 oasis Get access to dedicated financial consultancy that helps
                 you or your
               </div>
-              <div className="font-bold">Ricky Davis CEO</div>
+              <div className="font-bold">Terry Junior CEO</div>
               <div className="text-sm text-white">Toamtoes </div>
             </div>
           </div>

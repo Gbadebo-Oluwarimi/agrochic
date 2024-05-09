@@ -30,14 +30,14 @@
 }
 
 .user1 {
-  background-image: url("../../public/root.jpg");
+  background-image: url("../../public/gallery3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .user2 {
-  background-image: url("../../public/worker.webp");
+  background-image: url("../../public/gallery2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
