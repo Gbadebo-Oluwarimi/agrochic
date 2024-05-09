@@ -112,7 +112,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="bg-green-50 w-full ">
+      <div className="bg-green-50 w-full h-full ">
         <div
           className="text-5xl text-darkgreen font-bold text-center py-24 md:py-32"
           data-aos="fade-right"
@@ -122,50 +122,30 @@ export default function About() {
         </div>
         <div className="p-7   inline-block w-full md:flex gap-10 max-w-7xl m-auto ">
           <div
-            className=" ceo rounded-lg w-full p-3  min-h-96 md:h-svh  mb-10 "
+            className=" ceo rounded-lg w-full p-3  min-h-96 md:h-3/5  mb-10 "
             data-aos="fade-down"
           >
-            <div
-              className="relative md:top-3/4 top-56 w-full rounded-md bg-white p-4"
-              data-aos="fade-down"
-            >
+            <div className="relative md:bottom-3/5 top-56 w-full rounded-md bg-white p-4">
               <div className="font-bold ">Terry Junior </div>
               <div className="text-sm ">Chief Executive Officer (CEO) </div>
             </div>
           </div>
 
           <div
-            className="co-founder rounded-md p-3 w-full  min-h-96 md:h-svh mb-10"
+            className="co-founder rounded-lg p-3 w-full  min-h-96 md:h-3/5 mb-10"
             data-aos="fade-down"
           >
-            <div
-              className=" relative w-full top-56 md:top-3/4  rounded-md bg-white p-4 "
-              data-aos="fade-down"
-            >
+            <div className=" relative w-full top-56 md:bottom-3/5 rounded-md bg-white p-4 ">
               <div className="font-bold ">Constant Edoukou</div>
               <div className="text-sm ">Co-Founder </div>
             </div>
           </div>
+
           <div
-            className=" co3 rounded-md p-5 w-full  min-h-96 md:h-svh mb-10"
+            className="co4 rounded-md p-5 w-full min-h-96 md:h-3/5 mb-10"
             data-aos="fade-down"
           >
-            <div
-              className=" relative w-full top-56 md:top-3/4 rounded-md bg-white p-4 "
-              data-aos="fade-down"
-            >
-              <div className="font-bold ">Ricky Stones Jr</div>
-              <div className="text-sm ">General Manager </div>
-            </div>
-          </div>
-          <div
-            className="co4 rounded-md p-5 w-full min-h-96 md:h-svh mb-10"
-            data-aos="fade-down"
-          >
-            <div
-              className=" relative w-full top-56 md:top-3/4 rounded-md bg-white p-4 "
-              data-aos="fade-down"
-            >
+            <div className=" relative w-full top-56 md:bottom-3/5 rounded-md bg-white p-4 ">
               <div className="font-bold ">Ricky Stones Jr</div>
               <div className="text-sm ">General Manager </div>
             </div>
