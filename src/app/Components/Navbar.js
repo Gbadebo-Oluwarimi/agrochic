@@ -10,7 +10,7 @@ const Navbar = () => {
     <>
       {box ? <Phonenav /> : ""}
       <div
-        className="main2 fixed w-full bg-green-50 p-4  z-10 "
+        className="main2 fixed w-full bg-green-50 z-10 "
         data-aos="fade-down"
       >
         <div className=" relative m-auto max-w-7xl w-full lg:max-w-full  px-5 flex justify-between">
@@ -40,7 +40,7 @@ const Navbar = () => {
 
           <ul className="flex justify-between text-center items-center ">
             <Link href="/about">
-              <button className="rounded-tr-xl rounded-bl-xl bg-green-900  text-xs px-7 py-3 text-white">
+              <button className="hidden md:inline rounded-tr-xl rounded-bl-xl bg-green-900  text-xs px-7 py-3 text-white">
                 Product
               </button>
             </Link>
