@@ -11,7 +11,7 @@ export default function Gallery() {
   ];
   const zoomInProperties = {
     scale: 1,
-    duration: 3000,
+    duration: 2500,
     transitionDuration: 300,
     infinity: true,
 
@@ -28,14 +28,14 @@ export default function Gallery() {
     ),
   };
   return (
-    <div className="w-full bg-green-50 min-h-screen max-w-7xl m-auto rounded-md">
+    <div className="w-full bg-green-50   rounded-md">
       <Zoom {...zoomInProperties}>
         {Images.map((each, index) => (
           <div
             key={index}
-            className="flex justify-center md:items-center items-start w-screen h-screen relative"
+            className="flex justify-center md:items-center items-start h-96 w-screen  relative"
           >
-            <img className="w-screen " src={each} />
+            <img className="w-screen h-96" src={each} />
           </div>
         ))}
       </Zoom>

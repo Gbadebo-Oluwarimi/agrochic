@@ -38,7 +38,7 @@ export default function About() {
         data-aos="fade-right"
       />
       <div className="bg-green-50 pb-10">
-        <div className="bg-green-50 inline-block md:flex max-w-6xl m-auto py-10 lg:max-w-full lg:px-32">
+        <div className="bg-green-50 inline-block md:flex max-w-6xl m-auto py-10 lg:max-w-full lg:px-32 2xl:px-72">
           <div className="mt-32 p-10 w-full md:mr-10" data-aos="fade-down">
             <div className="text-5xl font-extrabold pb-5 text-green-900 ">
               Our Story
@@ -155,16 +155,16 @@ export default function About() {
         </div>
       </div>
       <div className="bg-green-50 text-left  py-20 w-full">
-        <div className=" mb-10 text-darkgreen font-bold text-6xl md:p-4 p-10 max-w-6xl m-auto ">
+        <div className="text-center md:text-left mb-10 text-darkgreen font-bold text-6xl md:p-4 p-10 max-w-6xl m-auto ">
           Team Gallery
-          <div className="text-sm mt-5">
+          <div className="text-md mt-5 text-center md:text-left">
             {" "}
             At Hive, our vision is grounded in a future where businesses not
             only thrive
           </div>
         </div>
       </div>
-      <div className="bg-green-50">
+      <div className="bg-green-50 md:p-20">
         <Gallery />
       </div>
       <Footer />
