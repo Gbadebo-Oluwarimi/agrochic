@@ -80,25 +80,30 @@ export default function Home() {
               Farms: Cultivating Sustainability, Nourishing Communities
               <span className="text-green-700"></span>
             </div>
-            <div
-              style={myfont3.style}
-              className="  w-full items-center align-middle text-center md:text-left  md:w-3/4 text-md mb-7 mt-9"
-              data-aos-delay="1000"
-              data-aos="fade-down"
-            >
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it overin a piece of making it over
+            <div className="p-5">
+              <div className="g4 inline-block md:hidden rounded-lg w-full min-h-screen "></div>
             </div>
-            <div className=" inline-block md:flex m-auto max-w-4xl  align-middle items-center text-center md:text-left">
-              <button className="mr-3 mb-3 md:mb-0  bg-green-700 w-72 rounded-tr-xl rounded-bl-xl p-3 md:w-40 text-sm text-white">
-                Check Products
-              </button>
-              <Link href="/about">
-                <button className=" border-2 border-gray-600  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen ">
-                  About Us
+            <div className="hidden md:inline-block">
+              <div
+                style={myfont3.style}
+                className="  w-full items-center align-middle text-center md:text-left  md:w-3/4 text-md mb-7 mt-9"
+                data-aos-delay="1000"
+                data-aos="fade-down"
+              >
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it overin a piece of making it over
+              </div>
+              <div className=" inline-block md:flex m-auto max-w-4xl  align-middle items-center text-center md:text-left">
+                <button className="mr-3 mb-3 md:mb-0  bg-green-700 w-72 rounded-tr-xl rounded-bl-xl p-3 md:w-40 text-sm text-white">
+                  Check Products
                 </button>
-              </Link>
+                <Link href="/about">
+                  <button className=" border-2 border-gray-600  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen ">
+                    About Us
+                  </button>
+                </Link>
+              </div>
             </div>
             <div className="flex w-full justify-between m-auto mt-7 md:justify-normal">
               <div className="mr-10">
