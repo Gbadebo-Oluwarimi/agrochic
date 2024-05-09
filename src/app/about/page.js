@@ -155,9 +155,16 @@ export default function About() {
         </div>
       </div>
       <div className="bg-green-50 text-left  py-20 w-full">
-        <div className="text-darkgreen font-bold text-6xl md:p-4 p-10 max-w-6xl m-auto ">
-          Gallery of Works done
+        <div className=" mb-10 text-darkgreen font-bold text-6xl md:p-4 p-10 max-w-6xl m-auto ">
+          Team Gallery
+          <div className="text-sm mt-5">
+            {" "}
+            At Hive, our vision is grounded in a future where businesses not
+            only thrive
+          </div>
         </div>
+      </div>
+      <div className="bg-green-50">
         <Gallery />
       </div>
       <Footer />

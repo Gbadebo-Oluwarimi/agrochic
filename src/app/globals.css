@@ -38,7 +38,7 @@
 
 .user2 {
   background-image: url("../../public/gallery2.jpg");
-  background-position: center;
+  background-position: center calc(30% - 50px);
   background-size: cover;
   background-repeat: no-repeat;
 }
