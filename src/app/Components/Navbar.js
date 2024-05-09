@@ -10,11 +10,11 @@ const Navbar = () => {
     <>
       {box ? <Phonenav /> : ""}
       <div
-        className="main2 fixed w-full bg-green-50  z-10"
+        className="main2 fixed w-full bg-green-50  z-10 "
         data-aos="fade-down"
       >
-        <div className=" relative m-auto max-w-7xl w-full  px-5 flex justify-between">
-          <div className="flex justify-between items-center">
+        <div className=" relative m-auto max-w-7xl w-full lg:max-w-full  px-5 flex justify-between">
+          <div className="flex justify-between items-center ">
             <div className="mr-20 font-bold flex items-center align-middle ">
               <Image
                 src="/logo.png"

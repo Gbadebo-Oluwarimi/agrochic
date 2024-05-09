@@ -1,7 +1,7 @@
 import React from "react";
 
 const Gallery = () => {
-  return <div></div>;
+  return <div className="w-full bg-green-50"></div>;
 };
 
 export default Gallery;

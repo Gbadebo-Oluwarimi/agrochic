@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 const Prenav = () => {
   return (
-    <div className="w-full min-h-96 bg-darkgreen text-white  inline-block md:flex overflow-hidden">
-      <div className="max-w-7xl m-auto md:flex inline-block">
+    <div className="  w-full min-h-96 bg-darkgreen text-white  inline-block md:flex overflow-hidden">
+      <div className=" lg:max-w-full lg:px-32 max-w-7xl m-auto md:flex inline-block">
         <div className=" ">
           <div className="text-3xl w-full md:text-6xl md:w-full font-bold py-5 md:py-20 px-6 md:px-20">
             Supercharge your

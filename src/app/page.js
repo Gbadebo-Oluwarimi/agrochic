@@ -38,7 +38,7 @@ export default function Home() {
       className="min-h-screen bg-green-50  overflow-hidden"
     >
       <Navbar />
-      <div className="grid grid-cols-10 mt-16 max-w-6xl m-auto ">
+      <div className="grid grid-cols-10 mt-16 max-w-6xl m-auto lg:max-w-full lg:px-32">
         <div className="col-span-10  md:col-span-6  m-auto ">
           <Image
             src="/design.png"
@@ -141,13 +141,13 @@ export default function Home() {
           <div className="h-1 w-14 bg-green-600" />
         </div>
 
-        <div className=" text-center text-3xl p-3 md:p-0 md:text-5xl m-auto max-w-3xl mb-20">
+        <div className="text-center text-3xl p-3 md:p-0 md:text-5xl m-auto max-w-3xl mb-20">
           We have unique insight into market trends and customer preferences
           trends.
         </div>
       </div>
 
-      <div className="inline-block md:flex max-w-7xl m-auto">
+      <div className="inline-block md:flex max-w-7xl m-auto lg:max-w-full lg:px-20">
         <div
           className="user1 w-1/2  ml-4 md:ml-20 rounded-bl-large rounded-tr-large"
           data-aos="fade-right"
@@ -188,8 +188,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative bg-green-50  mt-32 p-10 overflow-hidden">
-        <div className="pt-20 max-w-6xl m-auto ">
+      <div className="relative bg-green-50  mt-32 p-10 overflow-hidden ">
+        <div className="pt-20 max-w-6xl m-auto lg:max-w-full lg:px-32">
           <Image
             src="/design.png"
             width={600}
@@ -220,7 +220,7 @@ export default function Home() {
               financial expenses.
             </div>
           </div>
-          <div className=" inline-block md:flex max-w-7xl m-auto gap-5  mt-9 mb-14 w-full">
+          <div className="lg:max-w-full  inline-block md:flex max-w-7xl m-auto gap-5  mt-9 mb-14 w-full">
             <div
               className="p-5 text-gray-800 produce1 w-full rounded-md h-96 mb-5"
               data-aos="fade-down"
@@ -282,7 +282,7 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-green-50 pt-32">
-        <div className=" inline-block md:flex  max-w-6xl m-auto  gap-20  mb-10 p-6 bg-green-50">
+        <div className=" inline-block md:flex lg:max-w-full lg:px-32  max-w-6xl m-auto  gap-20  mb-10 p-6 bg-green-50">
           <div
             className="min-h-96 md:min-h-max user2 p-8 w-full rounded-md"
             data-aos="fade-right"

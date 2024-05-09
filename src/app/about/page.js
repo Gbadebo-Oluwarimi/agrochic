@@ -8,6 +8,7 @@ import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../Components/Footer";
+import Gallery from "../Components/Gallery";
 const myfont2 = localFont({
   src: "../../font/poppins-medium-500.ttf",
 });
@@ -37,7 +38,7 @@ export default function About() {
         data-aos="fade-right"
       />
       <div className="bg-green-50 pb-10">
-        <div className="bg-green-50 inline-block md:flex max-w-6xl m-auto py-10">
+        <div className="bg-green-50 inline-block md:flex max-w-6xl m-auto py-10 lg:max-w-full lg:px-32">
           <div className="mt-32 p-10 w-full md:mr-10" data-aos="fade-down">
             <div className="text-5xl font-extrabold pb-5 text-green-900 ">
               Our Story
@@ -67,16 +68,17 @@ export default function About() {
       <div className=" relative w-full min-h-80 about t-20  p-5">
         <div className="">
           <div
-            className="text-white mb-10  text-3xl md:text-5xl font-bold max-w-7xl md:w-full m-auto  p-5 md:p-20"
+            className="lg:max-w-full lg:px-32 text-white mb-10  text-3xl md:text-5xl font-bold max-w-7xl md:w-full m-auto  p-5 md:p-20"
             data-aos="fade-down"
           >
             <div className="text-xl mb-10" data-aos="fade-down">
               Features
             </div>
-            We&apos;re a team of experienced financial advisors, here to help
-            with the financial tasks that you don&apos;t like, and we do.
+            We&apos;re a team of experienced financial advisors,
+            <br /> here to help with the financial tasks that you
+            <br /> don&apos;t like, and we do.
           </div>
-          <div className="inline-block md:flex gap-10 max-w-6xl m-auto">
+          <div className="inline-block md:flex gap-10 max-w-6xl m-auto lg:max-w-full lg:p-20">
             <div
               className="w-full bg-darkgreen rounded-md pb-10 mb-10"
               data-aos="fade-down"
@@ -120,7 +122,7 @@ export default function About() {
           Meet everyone who made this
           <br /> possible.
         </div>
-        <div className="p-7   inline-block w-full md:flex gap-10 max-w-7xl m-auto ">
+        <div className="p-7   inline-block w-full md:flex gap-10 max-w-7xl m-auto lg:max-w-full lg:px-32">
           <div
             className=" ceo rounded-lg w-full p-3  min-h-96 md:h-3/5  mb-10 "
             data-aos="fade-down"
@@ -156,7 +158,7 @@ export default function About() {
         <div className="text-darkgreen font-bold text-6xl md:p-4 p-10 max-w-6xl m-auto ">
           Gallery of Works done
         </div>
-        <div></div>
+        <Gallery />
       </div>
       <Footer />
     </div>
