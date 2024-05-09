@@ -11,13 +11,13 @@ export default function Gallery() {
   ];
   const zoomInProperties = {
     scale: 1,
-    duration: 1500,
+    duration: 2500,
     transitionDuration: 300,
     infinity: true,
 
     //icons
     prevArrow: (
-      <div className="ml-10 top-40 md:top-72">
+      <div className="ml-10 inset-y-1/2">
         <ArrowLeftIcon className="h-8 w-8 text-white cursor-pointer" />
       </div>
     ),
@@ -33,7 +33,7 @@ export default function Gallery() {
         {Images.map((each, index) => (
           <div
             key={index}
-            className="flex justify-center md:items-center items-start min-h-96 w-screen  relative"
+            className="flex justify-center md:items-center items-start h-96 md:h-screen w-screen  relative"
           >
             <img className="w-screen" src={each} />
           </div>
