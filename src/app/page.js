@@ -306,7 +306,7 @@ export default function Home() {
             data-aos="fade-right"
           >
             <div
-              className="hidden md:inline-block relative top-72 w-full rounded-md  bg-white p-5"
+              className=" hidden md:inline-block relative top-72 w-full rounded-md  bg-white p-5"
               data-aos="fade-down"
             >
               <div className="font-bold pb-3 text-md">

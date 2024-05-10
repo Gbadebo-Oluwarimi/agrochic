@@ -16,13 +16,15 @@ const Navbar = () => {
         <div className=" relative m-auto max-w-7xl w-full lg:max-w-full  px-5 flex justify-between">
           <div className="flex justify-between items-center ">
             <div className="mr-20 font-bold flex items-center align-middle ">
-              <Image
-                src="/logo.png"
-                width={100}
-                height={100}
-                alt="logo"
-                className="font-bold"
-              />
+              <Link href="/">
+                <Image
+                  src="/logo.png"
+                  width={100}
+                  height={100}
+                  alt="logo"
+                  className="font-bold"
+                />
+              </Link>
             </div>
             <ul className=" hidden md:flex justify-between items-center text-gray-800">
               <Link href="/">
