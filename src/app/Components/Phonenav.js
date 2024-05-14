@@ -29,7 +29,7 @@ const Phonenav = () => {
 
           <ul onClick={() => updatebox()} className="text-center w-full mt-10">
             <li className="text-xl pb-10">
-              <Link href="/about">Explore </Link>
+              <Link href="/about">Home </Link>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -47,7 +47,7 @@ const Phonenav = () => {
             </li>
 
             <li className="text-xl pb-10">
-              <Link href="/about">Payment Plans </Link>
+              <Link href="/about">Products </Link>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -65,7 +65,7 @@ const Phonenav = () => {
             </li>
 
             <li className="text-xl pb-10">
-              <Link href="/about">About Us </Link>
+              <Link href="/about">Team </Link>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -83,7 +83,25 @@ const Phonenav = () => {
             </li>
 
             <li className="text-xl pb-10">
-              <Link href="/about">Order Quote</Link>
+              <Link href="/about">Contacts </Link>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2}
+                stroke="currentColor"
+                className=" text-green-600 w-4 h-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+            </li>
+
+            <li className="text-xl pb-10">
+              <Link href="/about">About Us</Link>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

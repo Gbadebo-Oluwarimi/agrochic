@@ -32,11 +32,11 @@ const Navbar = () => {
                 <li className="mr-7">Home</li>
               </Link>
               <Link href="/about">
-                <li className="mr-7">About us</li>
+                <li className="mr-7">Products </li>
               </Link>
-              <li className="mr-7">Pricing</li>
-              <li className="mr-7">Blog</li>
-              <li className="mr-7">Contact</li>
+              <li className="mr-7">Team </li>
+              <li className="mr-7">Contacts </li>
+              <li className="mr-7">About</li>
             </ul>
           </div>
 

@@ -19,7 +19,11 @@ const Footer = () => {
                   href="#"
                   class="block text-2xl font-medium text-gray-900 hover:opacity-75 dark:text-white sm:text-xl"
                 >
-                  +225 57 55 90 41
+                  <ul className="list-style-none">
+                    <li>+225 05 466 004 05</li>
+                    <li>+225 07 105 841 31</li>
+                    <li>+225 07 069 638 96</li>
+                  </ul>
                 </a>
               </p>
 
@@ -55,7 +59,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="/"
+                    href="https://www.instagram.com/pouletchic?igsh=MWhwaDdpenV0ejIyZg=="
                     rel="noreferrer"
                     target="_blank"
                     class="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
@@ -107,7 +111,7 @@ const Footer = () => {
 
                 <ul class="mt-6 space-y-4 text-sm">
                   <li className="text-gray-700">
-                    Explore
+                    Home
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -127,7 +131,7 @@ const Footer = () => {
                   <Link href="/about">
                     {" "}
                     <li className="text-gray-700">
-                      About Us
+                      Products
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -146,7 +150,7 @@ const Footer = () => {
                   </Link>
 
                   <li className="text-gray-700">
-                    Payment Plans
+                    Team
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -164,7 +168,7 @@ const Footer = () => {
                   </li>
 
                   <li className="text-gray-700">
-                    Request Quote
+                    Contacts
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -188,7 +192,7 @@ const Footer = () => {
 
                 <ul class="mt-6 space-y-4 text-sm">
                   <li className="text-gray-700">
-                    About Us
+                    About
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -227,15 +231,6 @@ const Footer = () => {
                     class="text-gray-500 transition hover:opacity-75 dark:text-gray-400"
                   >
                     Privacy Policy
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="#"
-                    class="text-gray-500 transition hover:opacity-75 dark:text-gray-400"
-                  >
-                    Resources Used
                   </a>
                 </li>
               </ul>
