@@ -6,17 +6,7 @@ const Contact = () => {
   return (
     <div className="font-poppins">
       <Navbar />
-      <div className="bg-green-100 w-full h-96 text-gray-200 p-10">
-        <div className="max-w-mx m-auto mt-20 relative">
-          <div className="text-sm py-3">
-            Agrochic/ <span className="text-green-300 py-10">Contact us</span>
-          </div>
-          <div className="text-5xl pb-3 ">Wanna Reach out to us ?</div>
-          <div className="text-sm">
-            Your Feedback Matters: Contact Us Today for Support and Inquiries
-          </div>
-        </div>
-      </div>
+      <div className="contact bg-green-100 w-full h-svh text-gray-200 p-10"></div>
       <div className="listbackground min-h-screen p-20">
         {/* <div className="absolute text-gray-200 z-0 right-10">
           <img src={doodle} alt="" className="  w-96 h-96 z-0 opacity-5" />
@@ -27,7 +17,7 @@ const Contact = () => {
           <br /> Our <span className="text-green-400">Team</span>{" "}
         </div>
         <div className="text-xs text-center py-4 text-gray-500">
-          We're Here to Assist You – Let's Start a Conversation{" "}
+          We&apos;re Here to Assist You – Let&apos;s Start a Conversation{" "}
         </div>
         <section class="">
           <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
