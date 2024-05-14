@@ -29,7 +29,7 @@ const Phonenav = () => {
 
           <ul onClick={() => updatebox()} className="text-center w-full mt-10">
             <li className="text-xl pb-10">
-              <Link href="/about">Home </Link>
+              <Link href="/">Home </Link>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -47,7 +47,7 @@ const Phonenav = () => {
             </li>
 
             <li className="text-xl pb-10">
-              <Link href="/about">Products </Link>
+              <Link href="#products">Products </Link>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -65,7 +65,7 @@ const Phonenav = () => {
             </li>
 
             <li className="text-xl pb-10">
-              <Link href="/about">Team </Link>
+              <Link href="/about/#team">Team </Link>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -83,7 +83,7 @@ const Phonenav = () => {
             </li>
 
             <li className="text-xl pb-10">
-              <Link href="/about">Contacts </Link>
+              <Link href="/contact">Contacts </Link>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

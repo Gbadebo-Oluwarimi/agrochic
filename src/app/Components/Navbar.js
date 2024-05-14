@@ -47,7 +47,7 @@ const Navbar = () => {
           </div>
 
           <ul className="flex justify-between text-center items-center ">
-            <Link href="/about">
+            <Link href="#products">
               <button className="hidden md:inline rounded-tr-xl rounded-bl-xl bg-green-900  text-xs px-7 py-3 text-white">
                 Product
               </button>
