@@ -142,8 +142,9 @@
 }
 
 .contact {
-  background-image: url("../../public/contact.jpg");
+  background-image: url("../../public/contact.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  height: max-content;
 }
