@@ -6,13 +6,13 @@ const Contact = () => {
   return (
     <div className="font-poppins">
       <Navbar />
-      <div className="bg-green-100 w-full pt-30">
+      <div className="bg-green-100 w-full ">
         <div className="contact min-h-screen text-gray-200 pt-20  p-10"></div>
-        <div className="listbackground min-h-screen p-20">
+        <div className="listbackground min-h-screen  p-2 md:p-20 w-full">
           {/* <div className="absolute text-gray-200 z-0 right-10">
           <img src={doodle} alt="" className="  w-96 h-96 z-0 opacity-5" />
         </div> */}
-          <div className="font-semibold text-3xl text-center z-10">
+          <div className="font-semibold text-3xl text-center z-10 w-full md:w-full">
             {" "}
             Reach Out and Connect with
             <br /> Our <span className="text-green-400">Team</span>{" "}
