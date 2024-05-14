@@ -114,7 +114,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="bg-green-50 w-full h-full ">
+      <section id="team" className="bg-green-50 w-full h-full ">
         <div
           className="text-5xl text-darkgreen font-bold text-center py-24 md:py-32"
           data-aos="fade-right"
@@ -153,7 +153,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <div className="bg-green-50 text-left  py-20 w-full">
         <div className="text-center mb-10 md:text-left text-darkgreen font-bold text-6xl md:p-4 p-10 max-w-6xl m-auto ">
           Team Gallery

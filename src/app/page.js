@@ -206,7 +206,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative bg-green-50  mt-32 p-10 overflow-hidden ">
+      <section
+        id="products"
+        className="relative bg-green-50  mt-32 p-10 overflow-hidden "
+      >
         <div className="pt-20 max-w-6xl m-auto lg:max-w-full lg:px-32">
           <Image
             src="/design.png"
@@ -283,7 +286,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <div className="text-center  bg-green-50 py-32">
         <div className="m-auto max-w-8  text-sm inline-block mb-5">
           Mission
