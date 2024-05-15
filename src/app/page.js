@@ -38,7 +38,7 @@ export default function Home() {
       className="min-h-screen bg-green-50  overflow-hidden"
     >
       <Navbar />
-      <div className="grid grid-cols-10 mt-16 max-w-6xl m-auto lg:max-w-full lg:px-32 2xl:px-72">
+      <div className="grid grid-cols-10 2xl:gap-2 mt-16 max-w-6xl m-auto lg:max-w-full lg:px-32 2xl:px-64">
         <div className="col-span-10  md:col-span-6  m-auto ">
           <Image
             src="/design.png"
@@ -72,7 +72,7 @@ export default function Home() {
               </div>
             </div>
             <div
-              className="2xl:text-7xl text-3xl items-center font-bold  align-middle text-center  md:text-left  md:text-5xl mb-3 md:pt-6 text-darkgreen w-full "
+              className="2xl:mr-10  2xl:text-6xl text-3xl items-center font-bold  align-middle text-center  md:text-left  md:text-5xl mb-3 md:pt-6 text-darkgreen w-full "
               style={myfont2.style}
               data-aos-delay="1000"
               data-aos="fade-down"

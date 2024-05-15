@@ -31,7 +31,7 @@ const Navbar = () => {
                 {" "}
                 <li className="mr-7">Home</li>
               </Link>
-              <a href="#products">
+              <a href="/#products">
                 <li className="mr-7">Products </li>
               </a>
               <Link href="/about/#team">
