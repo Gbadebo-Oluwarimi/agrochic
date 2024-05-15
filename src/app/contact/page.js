@@ -1,9 +1,17 @@
 "use client";
-
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image.js";
 import Footer from "../Components/Footer.js";
 import Navbar from "../Components/Navbar.js";
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+    });
+  }, []);
   return (
     <div className="font-poppins">
       <Navbar />
@@ -14,6 +22,7 @@ const Contact = () => {
             width={600}
             height={600}
             className="max-w-5xl m-auto items-center"
+            data-aos="fade-down"
           />
         </div>
 
@@ -21,12 +30,18 @@ const Contact = () => {
           {/* <div className="absolute text-gray-200 z-0 right-10">
           <img src={doodle} alt="" className="  w-96 h-96 z-0 opacity-5" />
         </div> */}
-          <div className="font-semibold text-3xl text-center z-10 w-full md:w-full">
+          <div
+            className="font-semibold text-3xl text-center z-10 w-full md:w-full"
+            data-aos="fade-down"
+          >
             {" "}
             Reach Out and Connect with
             <br /> Our <span className="text-green-400">Team</span>{" "}
           </div>
-          <div className="text-xs text-center py-4 text-gray-500">
+          <div
+            className="text-xs text-center py-4 text-gray-500"
+            data-aos="fade-down"
+          >
             We&apos;re Here to Assist You – Let&apos;s Start a Conversation{" "}
           </div>
           <section class="">
@@ -50,7 +65,10 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12 z-10">
+                <div
+                  class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12 z-10"
+                  data-aos="fade-down"
+                >
                   <form class="space-y-4">
                     <div className="">
                       <label class="sr-only" for="name" name="user_name">
