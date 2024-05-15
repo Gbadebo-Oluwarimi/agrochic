@@ -1,13 +1,22 @@
 "use client";
 
+import Image from "next/image.js";
 import Footer from "../Components/Footer.js";
 import Navbar from "../Components/Navbar.js";
 const Contact = () => {
   return (
     <div className="font-poppins">
       <Navbar />
-      <div className="bg-green-100 w-full ">
-        <div className="contact min-h-screen text-gray-200 pt-20  p-10"></div>
+      <div className="bg-green-100 w-full pt-24">
+        <div className=" md:w-full flex align-middle items-center">
+          <Image
+            src="/contact.png"
+            width={600}
+            height={600}
+            className="max-w-5xl m-auto items-center"
+          />
+        </div>
+
         <div className="listbackground min-h-screen  p-2 md:p-20 w-full">
           {/* <div className="absolute text-gray-200 z-0 right-10">
           <img src={doodle} alt="" className="  w-96 h-96 z-0 opacity-5" />
