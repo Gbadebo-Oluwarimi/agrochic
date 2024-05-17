@@ -74,9 +74,8 @@ export default function About() {
             <div className="text-xl mb-10" data-aos="fade-down">
               Features
             </div>
-            We&apos;re a team of experienced financial advisors,
-            <br /> here to help with the financial tasks that you
-            <br /> don&apos;t like, and we do.
+            We are a team of young entrepreneurs aiming to
+            <br /> reach the next level in industrial farming
           </div>
           <div className="inline-block md:flex gap-10 max-w-6xl m-auto lg:max-w-full lg:p-20">
             <div

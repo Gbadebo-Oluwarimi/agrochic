@@ -128,8 +128,8 @@
 }
 
 .co-founder {
-  background-image: url("../../public/co-fouder.jpg");
-  background-position: center calc(30% - -20px);
+  background-image: url("../../public/cofounder.jpg");
+  background-position: center calc(30% - -40px);
   background-size: cover;
   background-repeat: no-repeat;
 }

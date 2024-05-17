@@ -124,8 +124,8 @@ export default function Home() {
                 <div>Agrculture Farm Land</div>
               </div>
               <div>
-                <div className="text-4xl font-bold">98%</div>
-                <div>Farm Produce Rate</div>
+                <div className="text-4xl font-bold">11+</div>
+                <div>Farm Moving Equipment for Logistics</div>
               </div>
             </div>
           </div>
@@ -297,9 +297,8 @@ export default function Home() {
           className=" text-center text-3xl md:text-5xl m-auto max-w-6xl  font-bold"
           data-aos="fade-down"
         >
-          &quot;My online payments are out of control and I don&apos;t know
-          where to cut back. I feel like I need someone else to hold my card for
-          me.&quot;
+          Our goal is to help the country to reach food self-sufficieny in few
+          years
         </div>
       </div>
       <div className="bg-green-50 pt-32">
