@@ -183,25 +183,31 @@ export default function Home() {
             compliance with industry standards. Rather than committing to
             full-time staff for part-time needs,
           </div>
-          <div className="p-2 text-md">
+          {/* <div className="p-2 text-md">
             Terry Junior has a Bachelor&apos;s degree in Environmental Science,
             a Master&apos;s in Agriculture, and extensive expertise in
             fertilizer, agricultural R&D, regulatory approvals, and
             funding/grants applications, coupled with a keen understanding
-          </div>
+          </div> */}
 
           <div className="flex w-full mt-7 p-2">
             <div className="mr-10">
               <div className="text-4xl font-bold" data-aos="fade-up">
-                8m+
+                30+
               </div>
-              <div data-aos="fade-up">Agrculture Farm Land</div>
+              <div data-aos="fade-up">Hectares of Agrcultural Farm Land</div>
             </div>
             <div>
               <div className="text-4xl font-bold" data-aos="fade-up">
-                98%
+                10+
               </div>
-              <div data-aos="fade-up">Farm Produce Rate</div>
+              <div data-aos="fade-up">Fully Equipped Trycicles</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold" data-aos="fade-up">
+                2+
+              </div>
+              <div data-aos="fade-up">Truck For Logistics</div>
             </div>
           </div>
         </div>
