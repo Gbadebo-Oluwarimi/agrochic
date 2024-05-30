@@ -9,6 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../Components/Footer";
 import Gallery from "../Components/Gallery";
+import Maingallery from "../Components/Maingallery";
 const myfont2 = localFont({
   src: "../../font/poppins-medium-500.ttf",
 });
@@ -165,6 +166,7 @@ export default function About() {
       </div>
       <div className="bg-green-50 md:p-8">
         <Gallery />
+        <Maingallery />
       </div>
       <Footer />
     </div>
