@@ -128,7 +128,9 @@ export default function About() {
             data-aos="fade-down"
           >
             <div className="relative md:bottom-3/5 top-56 w-full rounded-md bg-white p-4">
-              <div className="font-bold ">Terry Junior </div>
+              <div className="font-bold ">
+                Terry <span className="text-bottombg">Junior</span>
+              </div>
               <div className="text-sm ">Chief Executive Officer (CEO) </div>
             </div>
           </div>
@@ -138,7 +140,9 @@ export default function About() {
             data-aos="fade-down"
           >
             <div className=" relative w-full top-56 md:bottom-3/5 rounded-md bg-white p-4 ">
-              <div className="font-bold ">Constant Edoukou</div>
+              <div className="font-bold ">
+                Constant <span className="text-bottombg">Edoukou</span>
+              </div>
               <div className="text-sm ">Co-Founder </div>
             </div>
           </div>
@@ -148,7 +152,9 @@ export default function About() {
             data-aos="fade-down"
           >
             <div className=" relative w-full top-56 md:bottom-3/5 rounded-md bg-white p-4 ">
-              <div className="font-bold ">Ricky Stones Jr</div>
+              <div className="font-bold ">
+                Ricky <span className="text-bottombg">Stones</span>
+              </div>
               <div className="text-sm ">General Manager </div>
             </div>
           </div>
@@ -165,8 +171,8 @@ export default function About() {
         </div>
       </div>
       <div className="bg-green-50 md:p-8">
-        <Gallery />
         <Maingallery />
+        <Gallery />
       </div>
       <Footer />
     </div>
