@@ -172,6 +172,7 @@ export default function About() {
       </div>
       <div className="bg-green-50 md:p-8">
         <Maingallery />
+        <p></p>
         <Gallery />
       </div>
       <Footer />
