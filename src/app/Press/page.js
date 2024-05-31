@@ -31,7 +31,7 @@ const Contact = () => {
             the majority
             <br /> have suffered alteration in some form, by injected humour, or
             randomised words which <br />
-            don't look even slightly believable.
+            dont look even slightly believable.
           </div>
         </div>
 
