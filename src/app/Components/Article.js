@@ -1,47 +1,11 @@
-"use client";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Image from "next/image.js";
-import localFont from "next/font/local";
-import Footer from "../Components/Footer.js";
-import Navbar from "../Components/Navbar.js";
-import Article from "../Components/Article.js";
+import React from "react";
 
-const myfont2 = localFont({
-  src: "../../font/Figtree-Light.ttf",
-});
-
-const Contact = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: false,
-    });
-  }, []);
+const Article = () => {
   return (
-    <div className="bg-green-100 overflow-hidden" style={myfont2.style}>
-      <Navbar />
-      <div className="bg-green-100 w-full  pt-24 ">
-        <div className="m-auto text-left max-w-6xl p-4">
-          <div className="text-4xl m-auto font-semibold py-6 ">
-            Latest Press Release
-          </div>
-          <div className="">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority
-            <br /> have suffered alteration in some form, by injected humour, or
-            randomised words which <br />
-            dont look even slightly believable.
-          </div>
-        </div>
-
-        <div className="pt-10">
+    <div>
+      <div className="bg-green-100 w-full pt-10">
+        <div className="">
           <div className="bg-green-100 inline-block md:flex lg:max-w-full lg:px-32 2xl:px-72  max-w-6xl m-auto  gap-20  mb-10 p-6 ">
-            <div
-              className="min-h-96 md:min-h-max article1 p-8 w-full rounded-md"
-              data-aos="fade-right"
-            ></div>
             <div className="mt-10 md:mt-4 mb-6" data-aos="fade-left">
               <div className="text-sm mb-4 font-bold">
                 Latest Press
@@ -71,15 +35,15 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="">
-            <Article />
+            <div
+              className="min-h-96 md:min-h-max article1 p-8 w-full rounded-md"
+              data-aos="fade-right"
+            ></div>
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
 
-export default Contact;
+export default Article;

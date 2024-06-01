@@ -119,7 +119,7 @@ const Phonenav = () => {
             </li>
 
             <li className="text-xl pb-10">
-              <Link href="">Press Release</Link>
+              <Link href="/Press">Press Release</Link>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
