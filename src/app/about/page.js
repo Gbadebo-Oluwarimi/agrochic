@@ -78,7 +78,7 @@ export default function About() {
             We are a team of young entrepreneurs aiming to
             <br /> reach the next level in industrial farming
           </div>
-          <div className="inline-block md:flex gap-10 max-w-6xl m-auto lg:max-w-full lg:p-20">
+          <div className="inline-block md:flex gap-10 max-w-6xl m-auto lg:max-w-full lg:p-40">
             <div
               className="w-full bg-darkgreen rounded-md pb-10 mb-10"
               data-aos="fade-down"
@@ -160,10 +160,10 @@ export default function About() {
           </div>
         </div>
       </section>
-      <div className="bg-green-50 text-left  py-20 w-full">
-        <div className="text-center mb-10 md:text-left text-darkgreen font-bold text-6xl md:p-4 p-10 max-w-6xl m-auto ">
+      <div className="bg-green-50 text-left  py-4 w-full">
+        <div className="text-center  md:text-left text-darkgreen font-bold text-6xl md:p-4 p-10 max-w-6xl m-auto ">
           Team Gallery
-          <div className="text-xl md:text-2xl mt-2 mb-5 text-center md:text-left">
+          <div className="text-xl md:text-2xl mt-2  text-center md:text-left">
             {" "}
             At Hive, our vision is grounded in a future where businesses
             <br /> not only thrive

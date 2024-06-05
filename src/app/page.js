@@ -120,12 +120,12 @@ export default function Home() {
 
             <div className="flex max-w-3xl  md:w-full w-full justify-between m-auto mt-7 md:justify-normal">
               <div className="mr-10">
-                <div className="text-4xl font-extrabold">8m+</div>
-                <div>Agrculture Farm Land</div>
+                <div className="text-4xl font-extrabold">30+</div>
+                <div>Hectares of Agrcultural Farm Land</div>
               </div>
               <div>
-                <div className="text-4xl font-bold">11+</div>
-                <div>Farm Moving Equipment for Logistics</div>
+                <div className="text-4xl font-bold">10+</div>
+                <div>Fully Equipped Trycicles</div>
               </div>
             </div>
           </div>
@@ -165,7 +165,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="inline-block md:flex max-w-7xl m-auto lg:max-w-full lg:px-20">
+      <div className="inline-block md:flex max-w-7xl m-auto lg:max-w-full lg:px-32">
         <div
           className="user1 w-1/2  ml-4 md:ml-20 rounded-bl-large rounded-tr-large"
           data-aos="fade-right"
@@ -181,7 +181,13 @@ export default function Home() {
           <div className="text-md my-6 p-2  text-gray-800">
             At AgroChic, We provide services to streamline operations and ensure
             compliance with industry standards. Rather than committing to
-            full-time staff for part-time needs,
+            full-time staff for part-time needs,Contrary to popular belief,
+            <p>
+              <br />
+            </p>{" "}
+            Lorem Ipsum is not simply random text. It has roots in a piece of
+            classical Latin literature from 45 BC, making it overin a piece of
+            making it over
           </div>
           {/* <div className="p-2 text-md">
             Terry Junior has a Bachelor&apos;s degree in Environmental Science,

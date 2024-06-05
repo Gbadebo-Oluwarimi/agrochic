@@ -35,8 +35,10 @@ const Contact = () => {
             data-aos="fade-down"
           >
             {" "}
-            Reach Out and Connect with
-            <br /> Our <span className="text-green-400">Team</span>{" "}
+            Call us on{" "}
+            <a href="https://Wa.me/+2250757559041" className="text-green-700">
+              WhatsApp
+            </a>
           </div>
           <div
             className="text-xs text-center py-4 text-gray-500"
