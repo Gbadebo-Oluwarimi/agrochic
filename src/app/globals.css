@@ -149,7 +149,7 @@
 
 .co-founder {
   background-image: url("../../public/cofounder.jpg");
-  background-position: center calc(30% - -0px);
+  background-position: center calc(20% - 0px);
   background-size: cover;
   background-repeat: no-repeat;
 }

@@ -58,7 +58,7 @@ const Contact = () => {
                 double ceremony celebrating the thirtieth anniversary of the
                 school and its best students at the end of this school year.
                 This celebration was marked by the presence of managers from
-                AGRO 'Chic, an agricultural company based in Ayamé. Involved in
+                AGRO Chic, an agricultural company based in Ayame. Involved in
                 the organization of this double ceremony, the company offered
                 school kits to all the best students
                 <a href="https://pressecotedivoire.ci/article/19874-une-entreprise-agricole-recompense-les-meilleurs-eleves-du-lycee-moderne-bad-dayame">
