@@ -52,12 +52,15 @@ const Contact = () => {
                 An agricultural company rewards the best students of the BAD
                 modern high school in Ayame
               </div>
-              <div className="mt-10 text-sm">
-                The BAD modern high school in Ayame experienced a special
-                atmosphere this Friday, May 17, 2024. It was thanks to the
+              <div className="mt-10 text-sm max-w-xl">
+                The modern high school B.A.D in Ayamé experienced a special
+                atmosphere this Friday, May 17th, 2024. It was thanks to the
                 double ceremony celebrating the thirtieth anniversary of the
-                said establishment and its best students in the evening of this
-                school year.
+                school and its best students at the end of this school year.
+                This celebration was marked by the presence of managers from
+                AGRO 'Chic, an agricultural company based in Ayamé. Involved in
+                the organization of this double ceremony, the company offered
+                school kits to all the best students
                 <a href="https://pressecotedivoire.ci/article/19874-une-entreprise-agricole-recompense-les-meilleurs-eleves-du-lycee-moderne-bad-dayame">
                   {" "}
                   Read more

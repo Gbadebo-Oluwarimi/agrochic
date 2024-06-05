@@ -44,13 +44,27 @@
 }
 
 .article1 {
-  background-image: url("../../public/image3.jpg");
+  background-image: url("../../public/image1.jpg");
+  background-position: center calc(30% - 50px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.article2 {
+  background-image: url("../../public/image6.jpg");
   background-position: center calc(30% - 50px);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .produce1 {
   background-image: url("../../public/produce1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.produce3 {
+  background-image: url("../../public/produce3.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

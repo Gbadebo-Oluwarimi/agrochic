@@ -249,7 +249,7 @@ export default function Home() {
           </div>
           <div className="lg:max-w-full  inline-block md:flex max-w-7xl m-auto gap-5  mt-9 mb-14 w-full">
             <div
-              className="p-5 text-gray-800 produce1 w-full rounded-md h-96 mb-5"
+              className="p-5 text-gray-800 produce3 w-full rounded-md h-96 mb-5"
               data-aos="fade-down"
             >
               <div

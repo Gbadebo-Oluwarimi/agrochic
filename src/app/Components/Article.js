@@ -16,7 +16,7 @@ const Article = () => {
                 An agricultural company rewards the best students of the BAD
                 modern high school in Ayame
               </div>
-              <div className="mt-10 text-sm">
+              <div className="mt-10 text-sm max-w-xl">
                 The BAD modern high school in Ayame experienced a special
                 atmosphere this Friday, May 17, 2024. It was thanks to the
                 double ceremony celebrating the thirtieth anniversary of the
@@ -36,7 +36,7 @@ const Article = () => {
               </div>
             </div>
             <div
-              className="min-h-96 md:min-h-max article1 p-8 w-full rounded-md"
+              className="min-h-96 md:min-h-max article2 p-8 w-full rounded-md"
               data-aos="fade-right"
             ></div>
           </div>
