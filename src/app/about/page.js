@@ -123,16 +123,16 @@ export default function About() {
           Meet everyone who made this
           <br /> possible.
         </div>
-        <div className="inline-block w-full h-full gap-5 md:flex md:max-w-7xl m-auto ">
-          <div className="w-full p-10  md:w-1/2 min-h-screen bg-gray-200 rounded-2xl ceo md:p-2 relative flex flex-col justify-end">
+        <div className="inline-block w-full h-full gap-5 md:flex md:max-w-7xl m-auto pb-10">
+          <div className="w-full p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-screen bg-gray-200 rounded-2xl ceo md:p-2 relative flex flex-col justify-end">
             <div className=" relative pb-10 text-white">
               <div className="px-10 text-4xl font-bold ">Terry Junior</div>
               <div className="px-10 text-2xl ">Co-Founder and CEO</div>
             </div>
           </div>
-          <div className="w-full p-10  md:w-1/2 min-h-screen bg-gray-200 rounded-2xl co-founder md:p-2 relative flex flex-col justify-end">
+          <div className="w-full p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-screen bg-gray-200 rounded-2xl co-founder md:p-2 relative flex flex-col justify-end">
             <div className=" relative pb-10 text-white">
-              <div className="px-10 text-4xl font-bold ">Terry Junior</div>
+              <div className="px-10 text-4xl font-bold ">Constant Edoukou</div>
               <div className="px-10 text-2xl ">
                 Co-Founder and General manager
               </div>

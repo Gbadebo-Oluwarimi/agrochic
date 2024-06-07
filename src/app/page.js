@@ -196,7 +196,7 @@ export default function Home() {
             funding/grants applications, coupled with a keen understanding
           </div> */}
 
-          <div className="flex w-full mt-7 p-2">
+          <div className="flex w-full mt-7 p-2 gap-2">
             <div className="mr-10">
               <div className="text-4xl font-bold" data-aos="fade-up">
                 30+
@@ -263,9 +263,9 @@ export default function Home() {
                 data-aos="fade-down"
               >
                 <div className="font-bold text-white">
-                  Freshly Picked Tomatotes
+                  Freshly Cultivated Cassava
                 </div>
-                <div className="text-sm text-white">Toamtoes </div>
+                <div className="text-sm text-white">Cassava </div>
               </div>
             </div>
             <div
@@ -277,9 +277,9 @@ export default function Home() {
                 data-aos="fade-down"
               >
                 <div className="font-bold text-white">
-                  Freshly Picked Tomatotes
+                  Freshly Picked Ball Peppers
                 </div>
-                <div className="text-sm text-white">Toamtoes </div>
+                <div className="text-sm text-white">Peppers </div>
               </div>
             </div>
             <div
