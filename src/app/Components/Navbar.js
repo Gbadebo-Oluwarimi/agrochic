@@ -51,8 +51,8 @@ const Navbar = () => {
 
           <ul className="flex justify-between text-center items-center ">
             <Link href="https://Wa.me/+2250757559041">
-              <button className="hidden md:inline rounded-tr-xl rounded-bl-xl bg-green-900  text-sm px-7 py-3 text-white">
-                Whatsapp
+              <button className="hidden flex  md:inline rounded-tr-xl rounded-bl-xl bg-green-900  text-sm px-7 py-3 text-white">
+                <div className="flex justify-between"><img src="icon1.svg" className="pr-3"/>Whatsapp</div>
               </button>
             </Link>
             <div className="md:hidden inline-block px-10">

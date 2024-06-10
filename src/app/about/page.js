@@ -144,7 +144,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div  data-aos="fade-left" className="w-full p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-screen bg-gray-200 rounded-2xl co-founder md:p-2 relative flex flex-col justify-end">
+          <div  data-aos="fade-left" className="w-full p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-screen bg-gray-200 rounded-2xl co-founder3 md:p-2 relative flex flex-col justify-end">
             <div className=" relative pb-10 text-white">
               <div className="px-10 text-4xl font-bold ">Joel Boidy </div>
               <div className="px-10 text-2xl ">

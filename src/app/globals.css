@@ -148,8 +148,15 @@
 }
 
 .co-founder {
-  background-image: url("../../public/cofounder.jpg");
+  background-image: url("../../public/co-founder.png");
   background-position: center calc(20% - -120px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.co-founder3 {
+  background-image: url("../../public/co-founder3.png");
+  background-position: center calc(20% - -90px);
   background-size: cover;
   background-repeat: no-repeat;
 }
