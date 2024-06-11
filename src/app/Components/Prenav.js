@@ -22,7 +22,7 @@ const Prenav = () => {
         <div className="min-h-full w-full overflow-hidden">
           <Image
             src="/logo3.svg"
-            width={1000}
+            width={700}
             height={0}
             alt="logo"
             className=" font-bold relative top-20 md:top-54 opacity-100 md:opacity-100 h-full md:min-h-96"
