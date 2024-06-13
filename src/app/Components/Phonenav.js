@@ -28,8 +28,9 @@ const Phonenav = () => {
           </div>
 
           <ul onClick={() => updatebox()} className="text-center w-full mt-10">
-            <li className="text-xl pb-10">
-              <Link href="/">Home </Link>
+          <Link href="/" >
+            <li className="text-xl pb-10 flex items-center align-center justify-between ">
+              Home 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -45,9 +46,10 @@ const Phonenav = () => {
                 />
               </svg>
             </li>
-
-            <li className="text-xl pb-10">
-              <Link href="#products">Products </Link>
+            </Link>
+            <Link href="#products">
+            <li className="text-xl pb-10 flex items-center align-center justify-between">
+             Products 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -63,9 +65,10 @@ const Phonenav = () => {
                 />
               </svg>
             </li>
-
-            <li className="text-xl pb-10">
-              <Link href="/about/#team">Team </Link>
+            </Link>
+            <Link href="/about/#team">
+            <li className="text-xl pb-10 flex items-center align-center justify-between">
+             Team 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -81,9 +84,10 @@ const Phonenav = () => {
                 />
               </svg>
             </li>
-
-            <li className="text-xl pb-10">
-              <Link href="/contact">Contacts </Link>
+</Link>
+<Link href="/contact">
+            <li className="text-xl pb-10 flex items-center align-center justify-between">
+              Contacts 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -99,9 +103,10 @@ const Phonenav = () => {
                 />
               </svg>
             </li>
-
-            <li className="text-xl pb-10">
-              <Link href="/about">About Us</Link>
+            </Link>
+            <Link href="/about">
+            <li className="text-xl pb-10 flex items-center align-center justify-between">
+             About Us
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -117,9 +122,10 @@ const Phonenav = () => {
                 />
               </svg>
             </li>
-
-            <li className="text-xl pb-10">
-              <Link href="/Press">Press Release</Link>
+            </Link>
+            <Link href="/Press">
+            <li className="text-xl pb-10 flex align-center items-center justify-between">
+              Press Release
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -135,6 +141,7 @@ const Phonenav = () => {
                 />
               </svg>
             </li>
+            </Link>
           </ul>
         </div>
       </div>
