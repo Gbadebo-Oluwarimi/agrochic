@@ -133,7 +133,7 @@ export default function About() {
         <div className="inline-block w-full min-h-96  md:flex md:max-w-8xl  p-2 md:p-10 m-auto pb-10">
           <div
             data-aos="fade-right"
-            className="w-full mb-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl ceo md:p-2 relative flex flex-col justify-end"
+            className="w-full mb-4 p-10  transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl ceo md:p-2 relative flex flex-col justify-end"
           >
             <div className=" relative pb-10 text-white">
               <div className="px-10 text-4xl font-bold ">Terry Junior</div>
@@ -142,7 +142,7 @@ export default function About() {
           </div>
           <div
             data-aos="fade-down"
-            className="w-full mb-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl co-founder md:p-2 relative flex flex-col justify-end"
+            className="w-full mb-4 mx-0 md:mx-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl co-founder md:p-2 relative flex flex-col justify-end"
           >
             <div className=" relative pb-10 text-white">
               <div className="px-10 text-4xl font-bold ">Constant Edoukou</div>
