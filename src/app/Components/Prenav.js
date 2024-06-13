@@ -8,7 +8,7 @@ const Prenav = () => {
           <div className="text-3xl w-full md:text-6xl md:w-full font-bold py-5 md:py-20 px-6 md:px-20">
             Supercharge your
             <br /> business with Hive!
-            <div className="text-lg w-full md:w-4/5 font-medium mt-6 ">
+            <div className="text-lg w-full md:w-2/6 font-medium mt-6 ">
               From streamlined project coordination to enhanced team
               collaboration, Hive empowers your organization to reach new
               heights. Experience the transformation, boost productivity,
@@ -19,15 +19,15 @@ const Prenav = () => {
             </button>
           </div>
         </div>
-        <div className="min-h-full w-full overflow-hidden">
+        {/* <div className="min-h-full w-full overflow-hidden">
           <Image
             src="/logo3.svg"
-            width={700}
+            width={200}
             height={0}
             alt="logo"
-            className=" font-bold relative top-20 md:top-54 opacity-100 md:opacity-100 h-full md:min-h-96"
+            className=" font-bold relative top-20 md:top-54 opacity-100 md:opacity-100 h-full min-h-24 md:min-h-96"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

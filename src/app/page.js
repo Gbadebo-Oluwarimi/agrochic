@@ -257,50 +257,48 @@ export default function Home() {
               financial expenses.
             </div>
           </div>
-          <div className="lg:max-w-full  inline-block md:flex max-w-7xl m-auto gap-5  mt-9 mb-14 w-full">
-            <div className="p-4">
+          <div className="lg:max-w-full   md:flex max-w-6xl m-auto gap-5 p-8 md:p-0  mt-9 mb-14 w-full">
+            <div
+              className="p-5 text-gray-800 produce3 w-full rounded-md h-96 mb-5"
+              data-aos="fade-down"
+            >
               <div
-                className="p-5 text-gray-800 produce3 w-full rounded-md h-96 mb-5"
+                className="relative top-64 w-full rounded-md main3 p-5"
                 data-aos="fade-down"
               >
-                <div
-                  className="relative top-64 w-full rounded-md main3 p-5"
-                  data-aos="fade-down"
-                >
-                  <div className="font-bold text-white">
-                    Freshly Cultivated Cassava
-                  </div>
-                  <div className="text-sm text-white">Cassava </div>
+                <div className="font-bold text-white">
+                  Freshly Cultivated Cassava
                 </div>
+                <div className="text-sm text-white">Cassava </div>
               </div>
+            </div>
 
+            <div
+              className="p-4 text-gray-800 produce2 w-full rounded-md h-96 mb-5"
+              data-aos="fade-down"
+            >
               <div
-                className="p-4 text-gray-800 produce2 w-full rounded-md h-96 mb-5"
+                className="relative top-64 w-full rounded-md main3 p-5"
                 data-aos="fade-down"
               >
-                <div
-                  className="relative top-64 w-full rounded-md main3 p-5"
-                  data-aos="fade-down"
-                >
-                  <div className="font-bold text-white">
-                    Freshly Picked Ball Peppers
-                  </div>
-                  <div className="text-sm text-white">Peppers </div>
+                <div className="font-bold text-white">
+                  Freshly Picked Ball Peppers
                 </div>
+                <div className="text-sm text-white">Peppers </div>
               </div>
+            </div>
+            <div
+              className="p-5 text-gray-800 produce1 w-full rounded-md h-96"
+              data-aos="fade-down"
+            >
               <div
-                className="p-5 text-gray-800 produce1 w-full rounded-md h-96"
+                className="relative top-64 w-full rounded-md main3 p-5"
                 data-aos="fade-down"
               >
-                <div
-                  className="relative top-64 w-full rounded-md main3 p-5"
-                  data-aos="fade-down"
-                >
-                  <div className="font-bold text-white">
-                    Freshly Picked Tomatotes
-                  </div>
-                  <div className="text-sm text-white">Toamtoes </div>
+                <div className="font-bold text-white">
+                  Freshly Picked Tomatotes
                 </div>
+                <div className="text-sm text-white">Toamtoes </div>
               </div>
             </div>
           </div>
