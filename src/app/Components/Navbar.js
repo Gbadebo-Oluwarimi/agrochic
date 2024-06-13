@@ -13,7 +13,7 @@ const Navbar = () => {
         className="main2 fixed w-full bg-green-50 z-10 "
         data-aos="fade-down"
       >
-        <div className=" relative m-auto max-w-7xl w-full lg:max-w-full  px-5 flex justify-between">
+        <div className=" relative m-auto max-w-7xl w-full lg:max-w-full  px-5 flex justify-between items-center align-middle">
           <div className="flex justify-between items-center ">
             <div className="mr-20 font-bold flex items-center align-middle ">
               <Link href="/">
@@ -26,6 +26,7 @@ const Navbar = () => {
                 />
               </Link>
             </div>
+
             <ul className=" hidden md:flex justify-between items-center text-gray-800">
               <Link href="/">
                 {" "}
@@ -48,11 +49,21 @@ const Navbar = () => {
               </Link>
             </ul>
           </div>
-
+          <div className="inline-block md:hidden">
+            <Link href="https://Wa.me/+2250757559041">
+              <img
+                src="icon1.svg"
+                className="  w-12  bg-green-300 p-2 rounded-full"
+              />
+            </Link>
+          </div>
           <ul className="flex justify-between text-center items-center ">
             <Link href="https://Wa.me/+2250757559041">
-              <button className="hidden flex  md:inline rounded-tr-xl rounded-bl-xl bg-green-900  text-sm px-7 py-3 text-white">
-                <div className="flex justify-between"><img src="icon1.svg" className="pr-3"/>Whatsapp</div>
+              <button className=" hidden   md:inline rounded-tr-xl rounded-bl-xl bg-green-900  text-sm px-7 py-3 text-white">
+                <div className="flex justify-between">
+                  <img src="icon1.svg" className="pr-3" />
+                  Whatsapp
+                </div>
               </button>
             </Link>
             <div className="md:hidden inline-block px-10">
