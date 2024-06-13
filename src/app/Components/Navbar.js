@@ -26,7 +26,14 @@ const Navbar = () => {
                 />
               </Link>
             </div>
-
+            <div className="inline-block md:hidden mr-12">
+              <Link href="https://Wa.me/+2250757559041">
+                <img
+                  src="icon1.svg"
+                  className="  w-12  bg-green-700 p-2 rounded-full"
+                />
+              </Link>
+            </div>
             <ul className=" hidden md:flex justify-between items-center text-gray-800">
               <Link href="/">
                 {" "}
@@ -49,14 +56,7 @@ const Navbar = () => {
               </Link>
             </ul>
           </div>
-          <div className="inline-block md:hidden">
-            <Link href="https://Wa.me/+2250757559041">
-              <img
-                src="icon1.svg"
-                className="  w-12  bg-green-300 p-2 rounded-full"
-              />
-            </Link>
-          </div>
+
           <ul className="flex justify-between text-center items-center ">
             <Link href="https://Wa.me/+2250757559041">
               <button className=" hidden   md:inline rounded-tr-xl rounded-bl-xl bg-green-900  text-sm px-7 py-3 text-white">
