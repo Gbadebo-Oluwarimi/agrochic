@@ -129,14 +129,14 @@ export default function About() {
           <br/>
           <div className="p-1 bg-green-500 w-72 flex align-center items-center m-auto mt-5"/>
         </div>
-        <div className="inline-block w-full h-full gap-5 md:flex md:max-w-8xl p-20 m-auto pb-10">
-          <div  data-aos="fade-right" className="w-full p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-screen bg-gray-200 rounded-2xl ceo md:p-2 relative flex flex-col justify-end">
+        <div className="inline-block w-full min-h-96  md:flex md:max-w-8xl  p-2 md:p-10 m-auto pb-10">
+          <div  data-aos="fade-right" className="w-full mb-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl ceo md:p-2 relative flex flex-col justify-end">
             <div className=" relative pb-10 text-white">
               <div className="px-10 text-4xl font-bold ">Terry Junior</div>
               <div className="px-10 text-2xl ">Co-Founder and CEO</div>
             </div>
           </div>
-          <div  data-aos="fade-down" className="w-full p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-screen bg-gray-200 rounded-2xl co-founder md:p-2 relative flex flex-col justify-end">
+          <div  data-aos="fade-down" className="w-full mb-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl co-founder md:p-2 relative flex flex-col justify-end">
             <div className=" relative pb-10 text-white">
               <div className="px-10 text-4xl font-bold ">Constant Edoukou</div>
               <div className="px-10 text-2xl ">
@@ -144,7 +144,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div  data-aos="fade-left" className="w-full p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-screen bg-gray-200 rounded-2xl co-founder3 md:p-2 relative flex flex-col justify-end">
+          <div  data-aos="fade-left" className="w-full  mb-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl co-founder3 md:p-2 relative flex flex-col justify-end">
             <div className=" relative pb-10 text-white">
               <div className="px-10 text-4xl font-bold ">Joel Boidy </div>
               <div className="px-10 text-2xl ">
