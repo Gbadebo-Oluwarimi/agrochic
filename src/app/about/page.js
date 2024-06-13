@@ -136,7 +136,9 @@ export default function About() {
             className="w-full mb-4 p-10  transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl ceo md:p-2 relative flex flex-col justify-end"
           >
             <div className=" relative pb-10 text-white">
-              <div className="px-10 text-4xl font-bold ">Terry Junior</div>
+              <div className="px-10 text-4xl font-bold text-outline">
+                Terry Junior
+              </div>
               <div className="px-10 text-2xl ">Co-Founder and CEO</div>
             </div>
           </div>
@@ -145,7 +147,9 @@ export default function About() {
             className="w-full mb-4 mx-0 md:mx-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl co-founder md:p-2 relative flex flex-col justify-end"
           >
             <div className=" relative pb-10 text-white">
-              <div className="px-10 text-4xl font-bold ">Constant Edoukou</div>
+              <div className="px-10 text-4xl font-bold text-outline">
+                Constant Edoukou
+              </div>
               <div className="px-10 text-2xl ">
                 Co-Founder and General manager
               </div>
@@ -156,7 +160,9 @@ export default function About() {
             className="w-full  mb-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl co-founder3 md:p-2 relative flex flex-col justify-end"
           >
             <div className=" relative pb-10 text-white">
-              <div className=" md:px-10 text-4xl font-bold ">Joel Boidy </div>
+              <div className=" md:px-10 text-4xl font-bold text-outline">
+                Joel Boidy{" "}
+              </div>
               <div className="px-10 text-2xl ">General Technician</div>
             </div>
           </div>
