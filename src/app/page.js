@@ -64,7 +64,7 @@ export default function Home() {
               className="flex md:w-72 text-center text-md align-middle w-80 max-w-2xl m-auto items-center bg-green-50 border-2  rounded-full p-1  md:m-0 text-textcolor mb-3"
             >
               <div
-                className="text-center   w-full text-sm md:text-left pl-0 md:pl-3 text-yellow-800"
+                className="text-center   w-full text-sm md:text-left pl-0 md:pl-3 text-green-500"
                 data-aos-delay="1000"
                 data-aos="fade-down"
               >
@@ -72,7 +72,7 @@ export default function Home() {
               </div>
             </div>
             <div
-              className="2xl:mr-10  2xl:text-6xl text-3xl items-center font-bold  align-middle text-center  md:text-left  md:text-5xl mb-3 md:pt-6 text-darkgreen w-full "
+              className="2xl:mr-10  2xl:text-6xl text-2xl items-center font-bold  align-middle text-center  md:text-left  md:text-5xl mb-3 md:pt-6 text-darkgreen w-full "
               style={myfont2.style}
               data-aos-delay="1000"
               data-aos="fade-down"
@@ -81,51 +81,55 @@ export default function Home() {
               <span className="text-green-700"></span>
             </div>
             <div className="p-1 md:p-0">
-              <div className="md:p-0 p-5 g4 inline-block md:hidden rounded-lg w-full min-h-screen ">
+              <div
+                className="min-h-96 md:min-h-max user1 p-4 w-full rounded-md"
+                data-aos="fade-right"
+              >
                 <div
-                  className=" md:inline-block relative top-96 w-full rounded-md  bg-white p-5"
+                  className="  md:inline-block relative top-48 w-full rounded-md  bg-white p-5"
                   data-aos="fade-down"
                 >
-                  <div className="font-bold pb-3 text-md">
+                  <div className="font-bold pb-3 text-sm">
                     We believe in turning your outdoor space into your personal
                     oasis Get access to dedicated financial consultancy that
                     helps you or your
                   </div>
+
                   <div className="font-bold">Terry Junior CEO</div>
                 </div>
               </div>
-            </div>
-            <div className="hidden md:inline-block">
-              <div
-                style={myfont3.style}
-                className="  w-full items-center align-middle text-center md:text-left  md:w-3/4 text-md mb-7 mt-9"
-                data-aos-delay="1000"
-                data-aos="fade-down"
-              >
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it overin a piece of making it over
-              </div>
-              <div className=" inline-block md:flex m-auto max-w-4xl  align-middle items-center text-center md:text-left">
-                <button className="mr-3 mb-3 md:mb-0  bg-green-700 w-72 rounded-tr-xl rounded-bl-xl p-3 md:w-40 text-sm text-white">
-                  Check Products
-                </button>
-                <Link href="/about">
-                  <button className=" border-2 border-gray-600  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen ">
-                    About Us
+              <div className="hidden md:inline-block">
+                <div
+                  style={myfont3.style}
+                  className="  w-full items-center align-middle text-center md:text-left  md:w-3/4 text-md mb-7 mt-9"
+                  data-aos-delay="1000"
+                  data-aos="fade-down"
+                >
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it overin a piece of making it over
+                </div>
+                <div className=" inline-block md:flex m-auto max-w-4xl  align-middle items-center text-center md:text-left">
+                  <button className="mr-3 mb-3 md:mb-0  bg-green-700 w-72 rounded-tr-xl rounded-bl-xl p-3 md:w-40 text-sm text-white">
+                    Check Products
                   </button>
-                </Link>
+                  <Link href="/about">
+                    <button className=" border-2 border-gray-600  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen ">
+                      About Us
+                    </button>
+                  </Link>
+                </div>
               </div>
-            </div>
 
-            <div className="flex max-w-3xl  md:w-full w-full justify-between m-auto mt-7 md:justify-normal">
-              <div className="mr-10">
-                <div className="text-4xl font-extrabold">30+</div>
-                <div>Hectares of Agrcultural Farm Land</div>
-              </div>
-              <div>
-                <div className="text-4xl font-bold">10+</div>
-                <div>Fully Equipped Trycicles</div>
+              <div className="flex max-w-3xl  md:w-full w-full justify-between m-auto mt-7 md:justify-normal">
+                <div className="mr-10">
+                  <div className="text-4xl font-extrabold">30+</div>
+                  <div>Hectares of Agrcultural Farm Land</div>
+                </div>
+                <div>
+                  <div className="text-4xl font-bold">10+</div>
+                  <div>Fully Equipped Trycicles</div>
+                </div>
               </div>
             </div>
           </div>
@@ -220,7 +224,7 @@ export default function Home() {
       </div>
       <section
         id="products"
-        className="relative bg-green-50  mt-32 p-10 overflow-hidden "
+        className="relative bg-green-50  mt-32  overflow-hidden "
       >
         <div className="pt-20 max-w-6xl m-auto lg:max-w-full lg:px-32">
           <Image
@@ -242,58 +246,61 @@ export default function Home() {
             Features
           </div>
           <div
-            className="text-center md:text-left text-3xl  md:text-5xl font-bold text-gray-800 "
+            className="text-center md:text-left text-3xl p-5 md:p-10 w-full   md:text-5xl font-bold text-gray-800 "
             data-aos="fade-right"
           >
-            Track, improve, and minimise spending
-            <br /> with custom advices from experts
-            <div className="p-2 md:p-0 w-full text-xl text-center md:text-left mt-6 md:w-4/6">
+            Track, improve, and minimise spending with custom advices from
+            experts
+            <div className="pb-3 md:p-0 w-full text-xl text-center md:text-left mt-6 md:w-4/6">
               Get access to dedicated financial consultancy that helps you or
               your business save money on your taxes, insurance, and other
               financial expenses.
             </div>
           </div>
           <div className="lg:max-w-full  inline-block md:flex max-w-7xl m-auto gap-5  mt-9 mb-14 w-full">
-            <div
-              className="p-5 text-gray-800 produce3 w-full rounded-md h-96 mb-5"
-              data-aos="fade-down"
-            >
+            <div className="p-4">
               <div
-                className="relative top-64 w-full rounded-md main3 p-5"
+                className="p-5 text-gray-800 produce3 w-full rounded-md h-96 mb-5"
                 data-aos="fade-down"
               >
-                <div className="font-bold text-white">
-                  Freshly Cultivated Cassava
+                <div
+                  className="relative top-64 w-full rounded-md main3 p-5"
+                  data-aos="fade-down"
+                >
+                  <div className="font-bold text-white">
+                    Freshly Cultivated Cassava
+                  </div>
+                  <div className="text-sm text-white">Cassava </div>
                 </div>
-                <div className="text-sm text-white">Cassava </div>
               </div>
-            </div>
-            <div
-              className="p-4 text-gray-800 produce2 w-full rounded-md h-96 mb-5"
-              data-aos="fade-down"
-            >
+
               <div
-                className="relative top-64 w-full rounded-md main3 p-5"
+                className="p-4 text-gray-800 produce2 w-full rounded-md h-96 mb-5"
                 data-aos="fade-down"
               >
-                <div className="font-bold text-white">
-                  Freshly Picked Ball Peppers
+                <div
+                  className="relative top-64 w-full rounded-md main3 p-5"
+                  data-aos="fade-down"
+                >
+                  <div className="font-bold text-white">
+                    Freshly Picked Ball Peppers
+                  </div>
+                  <div className="text-sm text-white">Peppers </div>
                 </div>
-                <div className="text-sm text-white">Peppers </div>
               </div>
-            </div>
-            <div
-              className="p-5 text-gray-800 produce1 w-full rounded-md h-96"
-              data-aos="fade-down"
-            >
               <div
-                className="relative top-64 w-full rounded-md main3 p-5"
+                className="p-5 text-gray-800 produce1 w-full rounded-md h-96"
                 data-aos="fade-down"
               >
-                <div className="font-bold text-white">
-                  Freshly Picked Tomatotes
+                <div
+                  className="relative top-64 w-full rounded-md main3 p-5"
+                  data-aos="fade-down"
+                >
+                  <div className="font-bold text-white">
+                    Freshly Picked Tomatotes
+                  </div>
+                  <div className="text-sm text-white">Toamtoes </div>
                 </div>
-                <div className="text-sm text-white">Toamtoes </div>
               </div>
             </div>
           </div>
