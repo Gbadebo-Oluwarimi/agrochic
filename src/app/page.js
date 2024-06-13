@@ -246,11 +246,13 @@ export default function Home() {
             Features
           </div>
           <div
-            className="text-center md:text-left text-3xl p-5 md:p-10 w-full   md:text-5xl font-bold text-gray-800 "
+            className="text-center md:text-left text-3xl p-5 md:p-10  bg-green-50 md:bg-green-100 rounded-2xl md:w-full   md:text-5xl font-bold text-gray-800 "
             data-aos="fade-right"
           >
-            Track, improve, and minimise spending with custom advices from
-            experts
+            <div className="w-full md:w-2/3">
+              Track, improve, and minimise spending with custom advices from
+              experts
+            </div>
             <div className="pb-3 md:p-0 w-full text-xl text-center md:text-left mt-6 md:w-4/6">
               Get access to dedicated financial consultancy that helps you or
               your business save money on your taxes, insurance, and other
