@@ -47,7 +47,7 @@ const Phonenav = () => {
               </svg>
             </li>
             </Link>
-            <Link href="#products">
+            <Link href="./#products">
             <li className="text-xl pb-10 flex items-center align-center justify-between">
              Products 
               <svg
@@ -66,7 +66,7 @@ const Phonenav = () => {
               </svg>
             </li>
             </Link>
-            <Link href="/about/#team">
+            <Link href="about/#team">
             <li className="text-xl pb-10 flex items-center align-center justify-between">
              Team 
               <svg
@@ -85,7 +85,7 @@ const Phonenav = () => {
               </svg>
             </li>
 </Link>
-<Link href="/contact">
+<Link href="contact">
             <li className="text-xl pb-10 flex items-center align-center justify-between">
               Contacts 
               <svg
@@ -104,7 +104,7 @@ const Phonenav = () => {
               </svg>
             </li>
             </Link>
-            <Link href="/about">
+            <Link href="about">
             <li className="text-xl pb-10 flex items-center align-center justify-between">
              About Us
               <svg
@@ -123,7 +123,7 @@ const Phonenav = () => {
               </svg>
             </li>
             </Link>
-            <Link href="/Press">
+            <Link href="Press">
             <li className="text-xl pb-10 flex align-center items-center justify-between">
               Press Release
               <svg
