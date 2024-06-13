@@ -141,7 +141,15 @@ const Phonenav = () => {
                 />
               </svg>
             </li>
+            
             </Link>
+            <li>
+            <Link href="https://Wa.me/+2250757559041">
+              <button className=" flex  md:inline rounded-tr-xl rounded-bl-xl bg-green-900  text-sm px-7 py-5 text-white w-full">
+                <div className="flex justify-between m-auto "><img src="icon1.svg" className="pr-3"/>Whatsapp</div>
+              </button>
+            </Link>
+              </li>
           </ul>
         </div>
       </div>
