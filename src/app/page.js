@@ -80,9 +80,9 @@ export default function Home() {
               Farms: Cultivating Sustainability, Nourishing Communities
               <span className="text-green-700"></span>
             </div>
-            <div className="p-1 md:p-0">
+            <div className="p-1 md:p-0 ">
               <div
-                className="min-h-96 md:min-h-max user1 p-4 w-full rounded-md"
+                className="min-h-96 md:min-h-max user1 p-4 w-full rounded-md inline-block md:hidden"
                 data-aos="fade-right"
               >
                 <div

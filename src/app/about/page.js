@@ -76,10 +76,11 @@ export default function About() {
               Features
             </div>
             We are a team of young entrepreneurs aiming to
-            <br /> reach the next level in <span className="text-green-500">industrial farming</span>
+            <br /> reach the next level in{" "}
+            <span className="text-green-500">industrial farming</span>
             <div className="text-2xl mt-10 font-light">
-            Our mission at Hive is to revolutionize the way businesses
-                operate by providing
+              Our mission at Hive is to revolutionize the way businesses operate
+              by providing
             </div>
           </div>
           <div className="inline-block md:flex gap-10 max-w-6xl m-auto lg:max-w-full lg:p-40">
@@ -126,17 +127,23 @@ export default function About() {
         >
           Meet everyone who made this
           <br /> possible.
-          <br/>
-          <div className="p-1 bg-green-500 w-72 flex align-center items-center m-auto mt-5"/>
+          <br />
+          <div className="p-1 bg-green-500 w-72 flex align-center items-center m-auto mt-5" />
         </div>
         <div className="inline-block w-full min-h-96  md:flex md:max-w-8xl  p-2 md:p-10 m-auto pb-10">
-          <div  data-aos="fade-right" className="w-full mb-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl ceo md:p-2 relative flex flex-col justify-end">
+          <div
+            data-aos="fade-right"
+            className="w-full mb-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl ceo md:p-2 relative flex flex-col justify-end"
+          >
             <div className=" relative pb-10 text-white">
               <div className="px-10 text-4xl font-bold ">Terry Junior</div>
               <div className="px-10 text-2xl ">Co-Founder and CEO</div>
             </div>
           </div>
-          <div  data-aos="fade-down" className="w-full mb-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl co-founder md:p-2 relative flex flex-col justify-end">
+          <div
+            data-aos="fade-down"
+            className="w-full mb-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl co-founder md:p-2 relative flex flex-col justify-end"
+          >
             <div className=" relative pb-10 text-white">
               <div className="px-10 text-4xl font-bold ">Constant Edoukou</div>
               <div className="px-10 text-2xl ">
@@ -144,12 +151,13 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div  data-aos="fade-left" className="w-full  mb-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl co-founder3 md:p-2 relative flex flex-col justify-end">
+          <div
+            data-aos="fade-left"
+            className="w-full  mb-4 p-10 transition duration-500 delay-300 hover:brightness-75 md:w-1/2 min-h-[600px] bg-gray-200 rounded-2xl co-founder3 md:p-2 relative flex flex-col justify-end"
+          >
             <div className=" relative pb-10 text-white">
-              <div className="px-10 text-4xl font-bold ">Joel Boidy </div>
-              <div className="px-10 text-2xl ">
-                General Technician
-              </div>
+              <div className=" md:px-10 text-4xl font-bold ">Joel Boidy </div>
+              <div className="px-10 text-2xl ">General Technician</div>
             </div>
           </div>
         </div>
