@@ -1,21 +1,23 @@
 "use client";
 
-import React from "react";
-import Navbar from "../Components/Navbar";
+import React, { useTransition } from "react";
+import Navbar from "../components/Navbar";
 import localFont from "next/font/local";
 import { useEffect } from "react";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Footer from "../Components/Footer";
-import Gallery from "../Components/Gallery";
-import Maingallery from "../Components/Maingallery";
+import Footer from "../components/Footer";
+import Gallery from "../components/Gallery";
+import Maingallery from "../components/Maingallery";
+import { useTranslations } from "use-intl";
 const myfont2 = localFont({
-  src: "../../font/poppins-medium-500.ttf",
+  src: "../../../font/poppins-medium-500.ttf",
 });
 const myfont3 = localFont({
-  src: "../../font/Figtree-Light.ttf",
+  src: "../../../font/Figtree-Light.ttf",
 });
+
 export default function About() {
   useEffect(() => {
     AOS.init({
@@ -23,9 +25,10 @@ export default function About() {
       once: false,
     });
   }, []);
+  const t = useTranslations("ABOUTPAGE");
+  const u = useTranslations("INDEXPAGE");
   return (
     <div style={myfont3.style} className="overflow-hidden w-full ">
-      <Navbar />
       <Image
         src="/design.png"
         width={600}
@@ -42,21 +45,13 @@ export default function About() {
         <div className="bg-green-50 inline-block md:flex max-w-6xl m-auto py-10 lg:max-w-full lg:px-32 2xl:px-72">
           <div className="mt-32 p-10 w-full md:mr-10" data-aos="fade-down">
             <div className="text-5xl font-extrabold pb-5 text-green-900 ">
-              Our Story
+              {t("title")}
             </div>
             <div className="text-xl w-full mb-5 font-light">
-              At Agrochic, we recognize the intricate demands of running an
-              agricultural enterprise. Efficient management hinges on seamless
-              coordination and streamlined processes. That&apos;s why we&apos;ve
-              honed our solutions to align perfectly with the cutting edge of
-              agricultural innovation.
+              {t("description")}
             </div>
-            <div className="text-xl w-full font-light">
-              Empowering you to seize control of your operations, boost
-              productivity, and elevate your agricultural business to
-              unprecedented heights, Hive transcends mere software solutions.
-            </div>
-            <div className="text-2xl font-bold mt-10">Terry Junior, CEO</div>
+            <div className="text-xl w-full font-light">{t("text1")}</div>
+            <div className="text-2xl font-bold mt-10">{u("author")}</div>
           </div>
           <div className="p-10 w-full ">
             <div
@@ -73,47 +68,38 @@ export default function About() {
             data-aos="fade-down"
           >
             <div className="text-xl mb-10" data-aos="fade-down">
-              Features
+              {u("tag")}
             </div>
-            We are a team of young entrepreneurs aiming to
-            <br /> reach the next level in{" "}
-            <span className="text-green-500">industrial farming</span>
-            <div className="text-2xl mt-10 font-light">
-              Our mission at Hive is to revolutionize the way businesses operate
-              by providing
-            </div>
+            {t("text2")}
+            <br /> {t("text2sub")}{" "}
+            <span className="text-green-500">{t("text2sub2")}</span>
+            <div className="text-2xl mt-10 font-light">{t("mission1")}</div>
           </div>
           <div className="inline-block md:flex gap-10 max-w-6xl m-auto lg:max-w-full lg:p-40">
             <div
-              className="w-full bg-darkgreen rounded-md pb-10 "
+              className="w-full bg-darkgreen mb-2 rounded-md pb-10 "
               data-aos="fade-down"
             >
               <div className="text-3xl text-white p-10" data-aos="fade-down">
-                <div className="text-xl font-light">Our Mission</div>
-                Commitment to Transforming Operations and Driving Success.
+                <div className="text-xl font-light">{t("mission1title")}</div>
+                {t("mission1sub")}
               </div>
               <div className="text-white px-10" data-aos="fade-down">
-                Our mission at Hive is to revolutionize the way businesses
-                operate by providing them with a comprehensive business
-                management solution that combines functionality, flexibility,
-                and user-friendliness.
+                {t("missiontext")}
               </div>
             </div>
             <div
-              className="w-full bg-green-200 rounded-md pb-10 "
+              className="w-full mb-2 bg-green-200 rounded-md pb-10 "
               data-aos="fade-down"
             >
               <div className="text-3xl font-bold p-10" data-aos="fade-down">
                 <div className="text-xl font-light" data-aos="fade-down">
-                  Our Vision
+                  {t("visiontitle")}
                 </div>
-                Sustainable growth through Hive management solutions.
+                {t("vision1sub")}
               </div>
               <div className="text-darkgreen px-10" data-aos="fade-down">
-                At Hive, our vision is grounded in a future where businesses not
-                only thrive but lead with unparalleled efficiency, innovation,
-                and to the for sustainability. We envision a global landscape
-                where.
+                {t("vision1text")}
               </div>
             </div>
           </div>
@@ -125,8 +111,8 @@ export default function About() {
           className="text-5xl text-darkgreen font-bold text-center py-24 md:py-32"
           data-aos="fade-right"
         >
-          Meet everyone who made this
-          <br /> possible.
+          {t("peopletitle")}
+          <br /> {t("peopletitle2")}
           <br />
           <div className="p-1 bg-green-500 w-72 flex align-center items-center m-auto mt-5" />
         </div>
@@ -137,9 +123,9 @@ export default function About() {
           >
             <div className=" relative pb-10 text-white">
               <div className="px-10 text-4xl font-bold text-outline">
-                Terry Junior
+                {t("ceo")}
               </div>
-              <div className="px-10 text-2xl ">Co-Founder and CEO</div>
+              <div className="px-10 text-2xl ">{t("role1")}</div>
             </div>
           </div>
           <div
@@ -148,11 +134,9 @@ export default function About() {
           >
             <div className=" relative pb-10 text-white">
               <div className="px-10 text-4xl font-bold text-outline">
-                Constant Edoukou
+                {t("co")}
               </div>
-              <div className="px-10 text-2xl ">
-                Co-Founder and General manager
-              </div>
+              <div className="px-10 text-2xl ">{t("role2")}</div>
             </div>
           </div>
           <div
@@ -161,20 +145,20 @@ export default function About() {
           >
             <div className=" relative pb-10 text-white">
               <div className=" md:px-10 text-4xl font-bold text-outline">
-                Joel Boidy{" "}
+                {t("tech")}{" "}
               </div>
-              <div className="px-10 text-2xl ">General Technician</div>
+              <div className="px-10 text-2xl ">{t("role3")}</div>
             </div>
           </div>
         </div>
       </section>
       <div className="bg-green-50 text-left  py-4 w-full">
         <div className="text-center  md:text-left text-darkgreen font-bold text-6xl md:p-4 p-10 max-w-6xl m-auto ">
-          Team Gallery
+          {t("Teamgallery")}
           <div className="text-xl md:text-2xl mt-2  text-center md:text-left">
             {" "}
-            At Hive, our vision is grounded in a future where businesses
-            <br /> not only thrive
+            {t("gallerytext")}
+            <br /> {t("gallerytext2")}
           </div>
         </div>
       </div>

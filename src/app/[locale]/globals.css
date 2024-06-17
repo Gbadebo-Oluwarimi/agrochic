@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .img {
-  background-image: url("../../public/landing.jpg");
+  background-image: url("../../../public/landing.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -34,55 +34,55 @@
     1px -1px 0 #000;
 }
 .user1 {
-  background-image: url("../../public/gallery3.jpg");
+  background-image: url("../../../public/gallery3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .user2 {
-  background-image: url("../../public/gallery2.jpg");
+  background-image: url("../../../public/gallery2.jpg");
   background-position: center calc(30% - 50px);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .article1 {
-  background-image: url("../../public/image1.jpg");
+  background-image: url("../../../public/image1.jpg");
   background-position: center calc(30% - 50px);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .article2 {
-  background-image: url("../../public/image6.jpg");
+  background-image: url("../../../public/image6.jpg");
   background-position: center calc(30% - 50px);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .produce1 {
-  background-image: url("../../public/produce1.jpg");
+  background-image: url("../../../public/produce1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .produce3 {
-  background-image: url("../../public/produce3.png");
+  background-image: url("../../../public/produce3.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .footerbg {
-  background-image: url("../../public/footerbg.jpg");
+  background-image: url("../../../public/footerbg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .about {
-  background-image: url("../../public/about.png");
+  background-image: url("../../../public/about.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -103,77 +103,77 @@
 }
 
 .produce2 {
-  background-image: url("../../public/produce2.jpg");
+  background-image: url("../../../public/produce2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .ceo {
-  background-image: url("../../public/user1.jpg");
+  background-image: url("../../../public/user1.jpg");
   background-position: center calc(30% - 50px);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .ceo1 {
-  background-image: url("../../public/user1.jpg");
+  background-image: url("../../../public/user1.jpg");
   background-position: center calc(30% - 50px);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .co1 {
-  background-image: url("../../public/co-1.webp");
+  background-image: url("../../../public/co-1.webp");
   background-position: center calc(30% - 50px);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .co2 {
-  background-image: url("../../public/co-2.webp");
+  background-image: url("../../../public/co-2.webp");
   background-position: center calc(30% - 50px);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .co3 {
-  background-image: url("../../public/co-3.webp");
+  background-image: url("../../../public/co-3.webp");
   background-position: center calc(30% - 50px);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .co4 {
-  background-image: url("../../public/co-4.webp");
+  background-image: url("../../../public/co-4.webp");
   background-position: center calc(30% - 50px);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .co-founder {
-  background-image: url("../../public/co-founder.png");
+  background-image: url("../../../public/co-founder.png");
   background-position: center calc(20% - -120px);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .co-founder3 {
-  background-image: url("../../public/co-founder3.png");
+  background-image: url("../../../public/co-founder3.png");
   background-position: center calc(20% - -90px);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .g4 {
-  background-image: url("../../public/gallery3.jpg");
+  background-image: url("../../../public/gallery3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .contact {
-  background-image: url("../../public/contact.png");
+  background-image: url("../../../public/contact.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

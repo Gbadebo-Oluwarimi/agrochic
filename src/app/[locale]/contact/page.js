@@ -3,8 +3,9 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image.js";
-import Footer from "../Components/Footer.js";
-import Navbar from "../Components/Navbar.js";
+import Footer from "../components/Footer.js";
+import Navbar from "../components/Navbar.js";
+import { useTranslations } from "next-intl";
 const Contact = () => {
   useEffect(() => {
     AOS.init({
@@ -12,9 +13,9 @@ const Contact = () => {
       once: false,
     });
   }, []);
+  const t = useTranslations("CONTACTPAGE");
   return (
     <div className="font-poppins">
-      <Navbar />
       <div className="bg-green-100 w-full pt-24">
         <div className=" md:w-full flex align-middle items-center">
           <Image
@@ -44,7 +45,7 @@ const Contact = () => {
             className="text-xs text-center py-4 text-gray-500"
             data-aos="fade-down"
           >
-            We&apos;re Here to Assist You – Let&apos;s Start a Conversation{" "}
+            {t("text")}{" "}
           </div>
           <section class="">
             <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
@@ -53,7 +54,7 @@ const Contact = () => {
                   <p class="max-w-xl text-lg">
                     <span className="text-green-600 font-semibold">
                       {" "}
-                      Email us at
+                      {t("emailtitle")}
                     </span>
                     <br /> agrochic@gmail.com
                     <br />
@@ -74,7 +75,7 @@ const Contact = () => {
                   <form class="space-y-4">
                     <div className="">
                       <label class="sr-only" for="name" name="user_name">
-                        Name
+                        {t("Name")}
                       </label>
                       <input
                         class="w-full rounded-lg border-gray-200 p-3 text-sm"
@@ -88,7 +89,7 @@ const Contact = () => {
                     <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
                       <div>
                         <label class="sr-only" for="email" name="user_email">
-                          Email
+                          {t("Email")}
                         </label>
                         <input
                           class="w-full rounded-lg border-gray-200 p-3 text-sm"
@@ -101,7 +102,7 @@ const Contact = () => {
 
                       <div>
                         <label class="sr-only" for="phone" name="user_phone">
-                          Phone
+                          {t("Phone")}
                         </label>
                         <input
                           class="w-full rounded-lg border-gray-200 p-3 text-sm"
@@ -115,7 +116,7 @@ const Contact = () => {
 
                     <div>
                       <label class="sr-only" for="message" name="message">
-                        Message
+                        {t("Message")}
                       </label>
 
                       <textarea
@@ -132,7 +133,7 @@ const Contact = () => {
                         type="submit"
                         class="inline-block w-full rounded-lg bg-green-500 px-5 py-3 font-medium text-white sm:w-auto"
                       >
-                        Send Enquiry
+                        {t("Send")}
                       </button>
                     </div>
                   </form>

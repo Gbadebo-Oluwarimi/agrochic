@@ -1,7 +1,10 @@
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
+  const t = useTranslations("INDEXPAGE");
+  const u = useTranslations("NAVIGATION");
   return (
     <div className="bg-green-100 text-gray-200" data-aos="fade-down">
       <footer class="bg-green-50 dark:bg-gray-900 lg:grid lg:grid-cols-5">
@@ -12,7 +15,7 @@ const Footer = () => {
             <div>
               <p>
                 <span class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                  Call us
+                  {t("callus")}
                 </span>
 
                 <a
@@ -28,8 +31,8 @@ const Footer = () => {
               </p>
 
               <ul class="mt-8 space-y-1 text-sm text-gray-700 dark:text-gray-200">
-                <li>Monday to Friday: 8am - 6pm</li>
-                <li>Weekend: 10am - 3pm</li>
+                <li>{t("Dates")}</li>
+                <li>{t("Dates2")}</li>
               </ul>
 
               <ul class="mt-8 flex gap-6">
@@ -106,12 +109,12 @@ const Footer = () => {
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div>
                 <p class="font-medium text-gray-900 dark:text-white">
-                  Services
+                  {u("services")}
                 </p>
 
                 <ul class="mt-6 space-y-4 text-sm">
                   <li className="text-gray-700">
-                    Home
+                    {u("home")}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -128,10 +131,10 @@ const Footer = () => {
                     </svg>
                   </li>
 
-                  <Link href="/about">
+                  <Link href="/">
                     {" "}
                     <li className="text-gray-700">
-                      Products
+                      {u("Products")}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -150,7 +153,7 @@ const Footer = () => {
                   </Link>
 
                   <li className="text-gray-700">
-                    Team
+                    {u("Team")}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -168,7 +171,7 @@ const Footer = () => {
                   </li>
 
                   <li className="text-gray-700">
-                    Contacts
+                    {u("Contacts")}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -192,7 +195,7 @@ const Footer = () => {
 
                 <ul class="mt-6 space-y-4 text-sm">
                   <li className="text-gray-700">
-                    About
+                    {u("About")}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"

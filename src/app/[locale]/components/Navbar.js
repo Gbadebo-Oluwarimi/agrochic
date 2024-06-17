@@ -1,11 +1,26 @@
-import React from "react";
+"use client";
+
+import React, { useTransition } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useStore } from "../../../Store";
+import { useStore } from "../../../../Store.js";
 import Phonenav from "./Phonenav.js";
-const Navbar = () => {
+import { useRouter } from "next/navigation.js";
+import { useLocale, useTranslations } from "next-intl";
+const Navbar = ({ locale }) => {
+  const [isPending, startTransition] = useTransition();
+  const router = useRouter();
   const box = useStore((state) => state.popup);
   const updatebox = useStore((state) => state.updatepopup);
+  const localeActive = useLocale();
+  const onSelectChange = (e) => {
+    const nextlocale = e.target.value;
+
+    startTransition(() => {
+      router.replace(`/${nextlocale}`);
+    });
+  };
+  const t = useTranslations("NAVIGATION");
   return (
     <>
       {box ? <Phonenav /> : ""}
@@ -28,31 +43,33 @@ const Navbar = () => {
             </div>
             <div className="inline-block md:hidden mr-12">
               <Link href="https://Wa.me/+2250757559041">
-                <img
-                  src="icon1.svg"
-                  className="  w-12  bg-green-700 p-2 rounded-full"
+                <Image
+                  src="/icon1.svg"
+                  className="mr-3 p-1 rounded-full bg-green-500"
+                  width={40}
+                  height={40}
                 />
               </Link>
             </div>
             <ul className=" hidden md:flex justify-between items-center text-gray-800">
               <Link href="/">
                 {" "}
-                <li className="mr-7">Home</li>
+                <li className="mr-7">{t("home")}</li>
               </Link>
               <a href="/#products">
-                <li className="mr-7">Products </li>
+                <li className="mr-7">{t("Products")} </li>
               </a>
-              <Link href="/about/#team">
-                <li className="mr-7">Team </li>
+              <Link href={`/${locale}/about#team`}>
+                <li className="mr-7">{t("Team")} </li>
               </Link>
-              <Link href="/contact">
-                <li className="mr-7">Contacts </li>
+              <Link href={`/${locale}/contact`}>
+                <li className="mr-7">{t("Contacts")} </li>
               </Link>
-              <Link href="/about">
-                <li className="mr-7">About</li>
+              <Link href={`/${locale}/about`}>
+                <li className="mr-7">{t("About")} </li>
               </Link>
-              <Link href="/Press">
-                <li className="mr-7">Press release</li>
+              <Link href={`/${locale}/Press`}>
+                <li className="mr-7">{t("Press")} </li>
               </Link>
             </ul>
           </div>
@@ -61,11 +78,33 @@ const Navbar = () => {
             <Link href="https://Wa.me/+2250757559041">
               <button className=" hidden   md:inline rounded-tr-xl rounded-bl-xl bg-green-900  text-sm px-7 py-3 text-white">
                 <div className="flex justify-between">
-                  <img src="icon1.svg" className="pr-3" />
-                  Whatsapp
+                  <Image
+                    src="/icon1.svg"
+                    className="pr-3"
+                    width={30}
+                    height={30}
+                  />
+                  {t("WhatsApp")}
                 </div>
               </button>
             </Link>
+            <button className="    text-sm px-7 py-3 ">
+              <div className="flex justify-between">
+                <label className="border-2 rounded">
+                  <p className="sr-only">change-Language</p>
+                  <select
+                    defaultValue={localeActive}
+                    className="bg-transparent py-2 cursor-pointer"
+                    onChange={onSelectChange}
+                    disabled={isPending}
+                  >
+                    <option value="en">English</option>
+                    <option value="de">Deutch</option>
+                    <option value="fr">French</option>
+                  </select>
+                </label>
+              </div>
+            </button>
             <div className="md:hidden inline-block px-10">
               <svg
                 onClick={() => updatebox()}
