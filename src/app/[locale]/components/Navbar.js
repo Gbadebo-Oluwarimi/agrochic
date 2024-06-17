@@ -41,16 +41,7 @@ const Navbar = ({ locale }) => {
                 />
               </Link>
             </div>
-            <div className="inline-block md:hidden mr-12">
-              <Link href="https://Wa.me/+2250757559041">
-                <Image
-                  src="/icon1.svg"
-                  className="mr-3 p-1 rounded-full bg-green-500"
-                  width={40}
-                  height={40}
-                />
-              </Link>
-            </div>
+
             <ul className=" hidden md:flex justify-between items-center text-gray-800">
               <Link href="/">
                 {" "}
@@ -73,7 +64,16 @@ const Navbar = ({ locale }) => {
               </Link>
             </ul>
           </div>
-
+          <div className="inline-block md:hidden mr-12">
+            <Link href="https://Wa.me/+2250757559041">
+              <Image
+                src="/icon1.svg"
+                className="mr-3 p-1 rounded-full bg-green-500"
+                width={40}
+                height={40}
+              />
+            </Link>
+          </div>
           <ul className="flex justify-between text-center items-center ">
             <Link href="https://Wa.me/+2250757559041">
               <button className=" hidden   md:inline rounded-tr-xl rounded-bl-xl bg-green-900  text-sm px-7 py-3 text-white">
@@ -88,13 +88,13 @@ const Navbar = ({ locale }) => {
                 </div>
               </button>
             </Link>
-            <button className="    text-sm px-7 py-3 ">
+            <button className=" hidden md:block    text-sm px-7 py-3 ">
               <div className="flex justify-between">
                 <label className="border-2 rounded">
                   <p className="sr-only">change-Language</p>
                   <select
                     defaultValue={localeActive}
-                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border min-w-40 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     onChange={onSelectChange}
                     disabled={isPending}
                   >

@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <div
       style={myfont2.style}
-      className="min-h-screen bg-green-50  overflow-hidden"
+      className="min-h-screen bg-green-50  overflow-hidden px-2"
     >
       <div className="grid grid-cols-10 2xl:gap-2 mt-16 max-w-6xl m-auto lg:max-w-full lg:px-32 2xl:px-64">
         <div className="col-span-10  md:col-span-6  m-auto ">

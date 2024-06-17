@@ -1,13 +1,24 @@
 "use client";
-import React, { startTransition } from "react";
+import React, { startTransition, useTransition } from "react";
 import { useStore } from "../../../../Store.js";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image.js";
-import { Router, useRouter } from "next/router.js";
+import { Router, useRouter } from "next/navigation.js";
 const Phonenav = ({ locale }) => {
   const updatebox = useStore((state) => state.updatepopup);
+  const router = useRouter();
   const t = useTranslations("NAVIGATION");
+  const [isPending, startTransition] = useTransition();
+  const localeActive = useLocale();
+  const onSelectChange = (e) => {
+    const nextlocale = e.target.value;
+
+    startTransition(() => {
+      router.replace(`/${nextlocale}`);
+      updatebox();
+    });
+  };
 
   return (
     <div className="h-full  bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-50 border border-gray-100 w-full  z-50 min-h-screen fixed   ">
@@ -162,7 +173,25 @@ const Phonenav = ({ locale }) => {
                 </button>
               </Link>
             </li>
+            <li></li>
           </ul>
+          <button className="   text-sm px-7 py-3 min-w-96">
+            <div className="flex justify-between">
+              <label className="border-2 rounded">
+                <p className="sr-only">change-Language</p>
+                <select
+                  defaultValue={localeActive}
+                  className="bg-gray-50 border min-w-60 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  onChange={onSelectChange}
+                  disabled={isPending}
+                >
+                  <option value="en">English</option>
+                  <option value="de">Deutch</option>
+                  <option value="fr">French</option>
+                </select>
+              </label>
+            </div>
+          </button>
         </div>
       </div>
     </div>
