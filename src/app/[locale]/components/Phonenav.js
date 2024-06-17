@@ -1,11 +1,14 @@
-import React from "react";
+"use client";
+import React, { startTransition } from "react";
 import { useStore } from "../../../../Store.js";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image.js";
-const Phonenav = () => {
+import { Router, useRouter } from "next/router.js";
+const Phonenav = ({ locale }) => {
   const updatebox = useStore((state) => state.updatepopup);
   const t = useTranslations("NAVIGATION");
+
   return (
     <div className="h-full  bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-50 border border-gray-100 w-full  z-50 min-h-screen fixed   ">
       <div className="flex ">
@@ -68,7 +71,7 @@ const Phonenav = () => {
                 </svg>
               </li>
             </Link>
-            <Link href="about/#team">
+            <Link href={`/${locale}/about#team`}>
               <li className="text-xl pb-10 flex items-center align-center justify-between">
                 {t("Team")}
                 <svg
@@ -87,7 +90,7 @@ const Phonenav = () => {
                 </svg>
               </li>
             </Link>
-            <Link href="contact">
+            <Link href={`/${locale}/contact`}>
               <li className="text-xl pb-10 flex items-center align-center justify-between">
                 {t("Contacts")}
                 <svg
@@ -106,7 +109,7 @@ const Phonenav = () => {
                 </svg>
               </li>
             </Link>
-            <Link href="about">
+            <Link href={`/${locale}/about`}>
               <li className="text-xl pb-10 flex items-center align-center justify-between">
                 {t("About")}
                 <svg
@@ -125,7 +128,7 @@ const Phonenav = () => {
                 </svg>
               </li>
             </Link>
-            <Link href="Press">
+            <Link href={`/${locale}/Press`}>
               <li className="text-xl pb-10 flex align-center items-center justify-between">
                 {t("Press")}
                 <svg

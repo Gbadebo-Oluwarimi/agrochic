@@ -23,7 +23,7 @@ const Navbar = ({ locale }) => {
   const t = useTranslations("NAVIGATION");
   return (
     <>
-      {box ? <Phonenav /> : ""}
+      {box ? <Phonenav locale={locale} /> : ""}
       <div
         className="main2 fixed w-full bg-green-50 z-10 "
         data-aos="fade-down"
