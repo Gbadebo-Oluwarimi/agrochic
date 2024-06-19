@@ -162,12 +162,12 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="bg-green-50 md:p-8">
+      <div className="bg-green-50">
         <Maingallery />
         <p></p>
         <Gallery />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
