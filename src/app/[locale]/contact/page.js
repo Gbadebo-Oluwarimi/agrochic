@@ -56,9 +56,9 @@ const Contact = () => {
                       {" "}
                       {t("emailtitle")}
                     </span>
-                    <br /> agrochic@gmail.com
+                    <br /> <a href="j.kouassi@agrochic.net">contact@agrochic.net</a>
                     <br />
-                    info@agrochic.com
+                    <a href="j.kouassi@agrochic.net">j.kouassi@agrochic.net</a>
                   </p>
 
                   <div class="mt-8">
