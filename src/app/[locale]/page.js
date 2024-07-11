@@ -88,14 +88,9 @@ export default function Home() {
                 className="min-h-96 md:min-h-max user1 p-4 w-full rounded-md inline-block md:hidden"
                 data-aos="fade-right"
               >
-                <div
-                  className="  md:inline-block relative top-48 w-full rounded-md  bg-white p-5"
-                  data-aos="fade-down"
-                >
-                  <div className="font-bold pb-3 text-sm">{t("title4")}</div>
+                {/* <div className="font-bold pb-3 text-sm">{t("title4")}</div> */}
 
-                  <div className="font-bold">Terry Junior CEO</div>
-                </div>
+                {/* <div className="font-bold">Terry Junior CEO</div> */}
               </div>
               <div className="hidden md:inline-block">
                 <div
