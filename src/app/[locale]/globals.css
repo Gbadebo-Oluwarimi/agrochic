@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.img {
-  background-image: url("../../../public/landing.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
 .main2 {
   background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(16.5px);

@@ -47,9 +47,9 @@ const Navbar = ({ locale }) => {
                 {" "}
                 <li className="mr-7">{t("home")}</li>
               </Link>
-              <a href="/#products">
+              <Link href="/#products">
                 <li className="mr-7">{t("Products")} </li>
-              </a>
+              </Link>
               <Link href={`/${locale}/about#team`}>
                 <li className="mr-7">{t("Team")} </li>
               </Link>
