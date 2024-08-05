@@ -117,7 +117,7 @@ export default function Home() {
 
               <div className="flex max-w-3xl  md:w-full w-full justify-between m-auto mt-7 md:justify-normal">
                 <div className="mr-10">
-                  <div className="text-4xl font-extrabold">30+</div>
+                  <div className="text-4xl font-extrabold">50+</div>
                   <div>{t("landing1")}</div>
                 </div>
                 <div>
