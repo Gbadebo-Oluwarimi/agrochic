@@ -13,7 +13,7 @@ const Footer = () => {
         <div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
           <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
             <div>
-              <p>
+              <div>
                 <span class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                   {t("callus")}
                 </span>
@@ -28,7 +28,7 @@ const Footer = () => {
                     <li>+225 07 069 638 96</li>
                   </ul>
                 </a>
-              </p>
+              </div>
 
               <ul class="mt-8 space-y-1 text-sm text-gray-700 dark:text-gray-200">
                 <li>{t("Dates")}</li>

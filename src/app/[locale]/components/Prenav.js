@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Link } from "react-router-dom";
 const Prenav = () => {
   const t = useTranslations("INDEXPAGE");
   const u = useTranslations("BUTTONS");
@@ -9,12 +10,15 @@ const Prenav = () => {
       <div className=" lg:max-w-full lg:px-32 max-w-10xl m-auto md:flex inline-block">
         <div className=" ">
           <div className="text-3xl w-full md:text-6xl md:w-full font-bold py-5 md:py-20 px-6 md:px-20">
-            {t("prenavtitle")}
-            <br /> {t("prenavtitle2")}
-            <div className="text-lg w-full md:w-2/6 font-medium mt-6 ">
+            <div className="w-full p-1 md:w-2/3">
+              {t("prenavtitle")}
+              <br /> {t("prenavtitle2")}
+            </div>
+            <div className="text-lg w-full md:w-2/4 font-medium mt-6 pb-2 ">
               {t("prenavtext")}
             </div>
-            <button className="   bg-white w-72 rounded-tr-xl rounded-bl-xl p-3 md:w-40 text-sm text-darkgreen">
+
+            <button className=" bg-white w-72 rounded-tr-xl rounded-bl-xl p-3 md:w-40 text-sm text-darkgreen">
               {u("CheckProducts")}
             </button>
           </div>

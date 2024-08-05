@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <div
       style={myfont2.style}
-      className="min-h-screen bg-green-50  overflow-hidden px-2"
+      className="min-h-screen bg-green-50  overflow-hidden"
     >
       <div className="grid grid-cols-10 2xl:gap-2 mt-16 max-w-6xl m-auto lg:max-w-full lg:px-32 2xl:px-64">
         <div className="col-span-10  md:col-span-6  m-auto ">
@@ -64,7 +64,7 @@ export default function Home() {
               style={myfont3.style}
               data-aos-delay="1000"
               data-aos="fade-down"
-              className="flex md:w-72 text-center text-md align-middle w-80 max-w-2xl m-auto items-center bg-green-50 border-2  rounded-full p-1  md:m-0 text-textcolor mb-3"
+              className="flex md:w-72 text-center text-md align-middle w-80 max-w-2xl m-auto items-center font-bold  md:m-0 text-textcolor mb-3"
             >
               <div
                 className="text-center   w-full text-sm md:text-left pl-0 md:pl-3 text-green-500"
@@ -102,10 +102,12 @@ export default function Home() {
                   {t("description")}
                 </div>
                 <div className=" inline-block md:flex m-auto max-w-4xl  align-middle items-center text-center md:text-left">
-                  <button className="mr-3 mb-3 md:mb-0  bg-green-700 w-72 rounded-tr-xl rounded-bl-xl p-3 md:w-40 text-sm text-white">
-                    {b("CheckProducts")}
-                  </button>
-                  <Link href="/about">
+                  <Link href="/#products">
+                    <button className="mr-3 mb-3 md:mb-0  bg-green-700 w-72 rounded-tr-xl rounded-bl-xl p-3 md:w-40 text-sm text-white">
+                      {b("CheckProducts")}
+                    </button>
+                  </Link>
+                  <Link href="/#about">
                     <button className=" border-2 border-gray-600  bg-gray-50 w-72 rounded-tl-xl rounded-br-xl p-3 md:w-40 text-sm font-bold text-darkgreen ">
                       {b("Read more")}
                     </button>
@@ -190,7 +192,7 @@ export default function Home() {
           <div className="flex w-full mt-7 p-2 gap-2">
             <div className="mr-10">
               <div className="text-4xl font-bold" data-aos="fade-up">
-                30+
+                50+
               </div>
               <div data-aos="fade-up">{t("landing1")}</div>
             </div>
@@ -295,10 +297,10 @@ export default function Home() {
           {t("mission2")}
         </div>
       </div>
-      <div className="bg-green-50 pt-32">
+      <div className=" pt-32">
         <div className=" inline-block md:flex lg:max-w-full lg:px-32 2xl:px-72  max-w-6xl m-auto  gap-20  mb-10 p-6 bg-green-50">
           <div
-            className="min-h-96 md:min-h-max user2 p-8 w-full rounded-md"
+            className="min-h-96 md:min-h-max user2  p-8 w-full rounded-md"
             data-aos="fade-right"
           >
             <div
@@ -340,7 +342,7 @@ export default function Home() {
                   className="font-bold"
                 />
               </div>
-              <div className="text-sm px-3"> {t("title4sub")}</div>
+              <div className="text-sm px-3"> {t("title4text")}</div>
             </div>
           </div>
         </div>
